@@ -1,0 +1,26 @@
+[
+  {
+    "product": "beef",
+    "objectID": "40",
+    "category": "Young Prime",
+    "meatCut": "TopSide",
+    "price": "7.49",
+    "cooking": "Roast"
+  },
+  {
+    "product": "beef",
+    "objectID": "41",
+    "category": "Young Prime",
+    "meatCut": "TopSide Clean",
+    "price": "11.2",
+    "cooking": "Roast"
+  },
+  {
+    "product": "beef",
+    "objectID": "42",
+    "category": "Young Prime",
+    "meatCut": "TopSide Cap Off",
+    "price": "10.5",
+    "cooking": "Roast"
+  }
+]

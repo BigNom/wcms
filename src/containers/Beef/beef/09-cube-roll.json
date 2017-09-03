@@ -1,0 +1,37 @@
+[
+  {
+    "product": "beef",
+    "objectID": "9",
+    "category": "Young Prime",
+    "animalCut": "cube-roll",
+    "meatCut": "Cube Roll",
+    "price": "13.5",
+    "cooking": "Roast",
+    "picture": "./images/cube-roll.jpg",
+    "description": "The scotch fillet or cube roll sits between the chuck and the striploin (sirloin) muscles over the back of the animal and is a very tender, moist and flavourful cut of beef perfect for a special roasting occasion. Given its tender nature it can also be sliced into steaks to barbecue and pan-fry or strips to stir-fry."
+  },
+  {
+    "product": "beef",
+    "objectID": "12",
+    "category": "Young Prime",
+    "meatCut": "Beef Fingers",
+    "price": "7.5",
+    "cooking": "Roast"
+  },
+  {
+    "product": "beef",
+    "objectID": "27",
+    "category": "Young Prime",
+    "meatCut": "Rib Eye",
+    "price": "14.99",
+    "cooking": "Roast"
+  },
+  {
+    "product": "beef",
+    "objectID": "31",
+    "category": "Young Prime",
+    "meatCut": "Short Ribs",
+    "price": "6.8",
+    "cooking": "Roast"
+  }
+]

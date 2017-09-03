@@ -1,0 +1,21 @@
+[
+      {
+        "product": "beef",
+        "objectID": "3",
+        "category": "Young Prime",
+        "meatCut": "Butt Fillet",
+        "price": "16.5",
+        "cooking": "Roast",
+        "picture": "",
+        "description": "Butt Fillet is a tender cut of Beef taken from the Sirloin."
+      },
+      {
+        "product": "beef",
+        "objectID": "6",
+        "category": "Young Prime",
+        "meatCut": "Tenderloin Whole",
+        "price": "19.5",
+        "cooking": "Roast",
+        "picture": "./images/tenderloin_fillet.jpg"
+      }
+]

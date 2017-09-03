@@ -1,0 +1,63 @@
+[
+    { "product": "poultry",
+        "objectID": "62",
+        "category": "poultry",
+        "name": "Chicken Drums",
+        "price": "5",
+        "cooking": "Roast"
+    },
+    { "product": "poultry",
+        "objectID": "63",
+        "category": "poultry",
+        "name": "Chicken Breast",
+        "price": "8",
+        "cooking": "Roast"
+    },
+    { "product": "poultry",
+        "objectID": "64",
+        "category": "poultry",
+        "name": "Chicken Whole",
+        "price": "8 per bird",
+        "cooking": "Roast"
+    },
+    { "product": "poultry",
+        "objectID": "65",
+        "category": "poultry",
+        "name": "Chicken Wings",
+        "price": "4",
+        "cooking": "Roast"
+    },
+    { "product": "poultry",
+        "objectID": "66",
+        "category": "poultry",
+        "name": "Chicken Thigh",
+        "price": "10.5",
+        "cooking": "Roast"
+    },
+    { "product": "poultry",
+        "objectID": "67",
+        "category": "poultry",
+        "name": "Chicken Frames",
+        "price": "4 3 per bag",
+        "cooking": "Roast"
+    },
+    { "product": "poultry",
+        "objectID": "68",
+        "category": "poultry",
+        "name": "Chicken Maryland",
+        "price": "8.5",
+        "cooking": "Roast"
+    },
+    { "product": "poultry",
+        "objectID": "69",
+        "category": "poultry",
+        "name": "Chicken Thigh",
+        "price": "9.5",
+        "cooking": "Roast"
+    },
+    { "product": "poultry",
+        "objectID": "70",
+        "category": "poultry",
+        "cooking": "Roast"
+    }  
+]

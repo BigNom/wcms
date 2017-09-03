@@ -1,0 +1,71 @@
+
+.card.open .header::before {
+  content: "▼ "
+}
+
+.card.closed .header::before {
+  content: "► "
+}
+
+.header {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card.closed .body {
+  display: none;
+}
+
+.body>img {
+  margin: 16px -24px 16px;
+  width: 200px;
+}
+
+svg.shin {
+  background-color: #7A121C;
+}
+svg.silverside {
+  background: #00AEEF;
+}
+svg.topside {
+  background-color: #FFDB00;
+}
+svg.knuckle {
+  background-color: #43B649;
+}
+
+svg.rump {
+  background-color: #A0D9D7;
+}
+svg.tenderloin {
+  background-color: #210045;
+}
+
+svg.flank {
+  background-color: #E3B257;
+}
+
+svg.shortloin {
+  background-color: #EF4130;
+}
+svg.cubeRoll {
+  background-color: #20968D;
+}
+
+svg.blade {
+  background-color: #F99B1E;
+}
+svg.chuck {
+  background-color: #1275BC;
+}
+
+svg.brisket {
+  background-color: #9FA6CC;
+}
+
+svg.other {
+  background-color: #009366;
+}
+
+
+

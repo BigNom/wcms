@@ -1,0 +1,27 @@
+[
+  {
+    "product": "beef",
+    "objectID": "36",
+    "category": "Young Prime",
+    "animalCut": "shortloin",
+    "meatCut": "T-Bone",
+    "price": "13.5",
+    "cooking": "Roast"
+  },
+      {
+        "product": "beef",
+        "objectID": "33",
+        "category": "Young Prime",
+        "meatCut": "Whole Sirloin",
+        "price": "11.2",
+        "cooking": "Roast"
+      },
+          {
+            "product": "beef",
+            "objectID": "34",
+            "category": "Young Prime",
+            "meatCut": "Denuded Striploin",
+            "price": "12.99",
+            "cooking": "Roast"
+          }
+]

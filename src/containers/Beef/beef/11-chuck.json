@@ -1,0 +1,28 @@
+[
+      {
+        "product": "beef",
+        "objectID": "5",
+        "category": "Young Prime",
+        "meatCut": "Chuck Whole",
+        "price": "7.99",
+        "cooking": "Roast"
+      },
+      {
+        "product": "beef",
+        "objectID": "8",
+        "category": "Young Prime",
+        "meatCut": "Chuck Tender",
+        "price": "8.99",
+        "cooking": "Roast",
+        "picture": "./images/chuck.jpg",
+        "description": "Perfect for slow cooked meals, curries and stews with a great full flavour."
+      },
+          {
+            "product": "beef",
+            "objectID": "32",
+            "category": "Young Prime",
+            "meatCut": "Chuck Rib Plate",
+            "price": "6",
+            "cooking": "Roast"
+          }
+]

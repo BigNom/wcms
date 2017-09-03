@@ -1,0 +1,21 @@
+[
+      {
+        "product": "beef",
+        "objectID": "13",
+        "category": "Young Prime",
+        "animalCut": "Flank",
+        "meatCut": "Flank Steak",
+        "price": "11",
+        "cooking": "Roast",
+        "description": "The flank is located directly beneath the loin in the abdominal area. The flank steak is extremely versatile. Relatively long and flat, it has a coarse grain running along its length which adds another dimension to its appeal and application. Perfect for thin slicing for a stir-fry, flank steak also performs extremely well under slow-cooking conditions. After slow-cooking this beef cut can be shredded with a fork and added to burritos or salads."
+      },
+          {
+            "product": "beef",
+            "objectID": "38",
+            "category": "Young Prime",
+            "animalCut": "Flank",
+            "meatCut": "Thick Skirt",
+            "price": "7.5",
+            "cooking": "Roast"
+          }
+]

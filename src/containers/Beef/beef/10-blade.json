@@ -1,0 +1,44 @@
+[
+    {
+      "product": "beef",
+      "objectID": "0",
+      "category": "Young Prime",
+      "animalCut": "Blade",
+      "meatCut": "Bolar Roast cut in half",
+      "isInStock": "true",
+      "price": "8.99",
+      "saving": "2.00",
+      "picture": "./images/BLDRST_RET.jpg",
+      "description": "Beef blade roast is a very flavourful cut that is versatile enough to be cooked whole as a roast, sliced into steaks and cooked on the barbecue or in a pan, thinly sliced for a stir-fry or diced for slow cooking in a braise or casserole.",
+      "cooking": [
+        {
+          "barbecue": "./images/cooking/barbecue.png",
+          "pan": "./images/cooking/pan.png"
+        }
+      ]
+    },
+    {
+      "product": "beef",
+      "objectID": "24",
+      "category": "Young Prime",
+      "animalCut": "Blade",
+      "meatCut": "Oyster blade",
+      "isInStock": "true",
+      "price": "7.99",
+      "saving": "2.00",
+      "cooking": "Roast",
+      "picture": "./images/oysterblade-whole.jpg",
+      "description": "The oyster blade is connected to the shoulder blade of the beef. It is a very flavourful cut that is versatile enough to be cooked whole as a roast, sliced into steaks and cooked on the barbecue or in a pan, thinly sliced for a stir-fry or diced for slow cooking in a braise or casserole."
+    },
+    {
+      "product": "beef",
+      "objectID": "45",
+      "category": "Young Beef",
+      "animalCut": "Blade",
+      "meatCut": "Chuck",
+      "isInStock": "true",
+      "price": "8.99",
+      "cooking": "Roast",
+      "description": "Being one of the neck muscles used to support the head, chuck contains a great deal of connective tissue and therefore suits moist slow-cooking techniques that break down the connective tissue. Perfect for curries and stews with great full flavour and a fantastic gelatinous texture."
+    }
+]

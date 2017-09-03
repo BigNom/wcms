@@ -1,0 +1,212 @@
+[  
+  {
+    "product": "lamb",
+    "objectID": "101",
+    "category": "Lamb",
+    "animalCut": "Rack",
+    "meatCut": "Leg Chops",
+    "price": "12",
+    "cooking": "Roast",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502849220/wcms/lamb/Lamb_leg_chop.actual_white_background_f8zhtn",
+    "description": "Traditional lamb chops come from the rib, loin, sirloin and shoulder of the animal. Shoulder chops (also called blade and arm chops) require a  shorter amount of cooking time than other cuts, making them an economical and flavourful choice for quick and easy meals."
+  },
+  {
+    "product": "lamb",
+    "objectID": "101",
+    "category": "Lamb",
+    "animalCut": "Leg",
+    "meatCut": "Legs",
+    "price": "9.5",
+    "cooking": "Roast",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502849046/wcms/lamb/Lamb_leg_whole_zpu2ww",
+    "description": "Leg of Lamb. Although a lamb has four legs, only the two hind legs produce the cut referred to as leg of lamb. It is a large, lean, and tender cut and can be used whole or subdivided into smaller cuts, which can are usually cooked using dry heat methods, such as roasting."
+  },
+  {
+    "product": "lamb",
+    "objectID": "103",
+    "category": "Lamb",
+    "animalCut": "Leg",
+    "meatCut": "Leg Boned & Rolled",
+    "price": "15.5",
+    "cooking": "Roast",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502849125/wcms/lamb/Lamb_leg_boned_and_rolled_chk3yr",
+    "description": "Boneless leg of lamb (with the bones removed) is perfect for oven roasting and is also very easy to carve. The term “boneless” means the leg bone has been removed from the lamb roast. A boned, rolled, and tied or netted leg is easy to roast. Perfect for making kabob meat."
+  }, 
+  {
+    "product": "lamb",
+    "objectID": "104",
+    "category": "Lamb",
+    "animalCut": "Leg",
+    "meatCut": "Knuckle",
+    "price": "14.49",
+    "cooking": "Roast",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502849095/wcms/lamb/Lamb_knuckle_mini_roast_yedpu0",
+    "description": "Lamb knuckles are a smaller bone than the lamb shank. Lamb knuckles can be used in a wide variety of recipes as they are shorter and don’t have the end piece with the marrow in it."
+  },
+  {
+    "product": "lamb",
+    "objectID": "301",
+    "category": "Lamb",
+    "animalCut": "Shortloin",
+    "meatCut": "Loin Chops",
+    "price": "15",
+    "cooking": "Roast",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502849182/wcms/lamb/Lamb_loin_chop_snvnjr",
+    "description": "One of the most readily available cuts in the case at the grocery store, loin chops are lean, tender and delicious! With their perfect3- to4-ounce serving size and attractive “T” shaped bone that runs through the meat, loin chops are simple to prepare."
+  },
+
+  {
+    "product": "lamb",
+    "objectID": "401",
+    "category": "Lamb",
+    "animalCut": "Rack",
+    "meatCut": "Lamb Bone (cut)",
+    "price": "1.99",
+    "cooking": "Roast",
+    "picture": "./images/wcms-placeholder.png",
+    "description": "This part of the animal works hard, so the meat from this part is full of flavour. It takes a while to become tender, but this means it’s a great choice for stewing and slow-roasting. To maximise the flavour, cook on the bone so the meat simply falls apart when pulled with a fork. "
+  },
+  {
+    "product": "lamb",
+    "objectID": "402",
+    "category": "Lamb",
+    "animalCut": "Rack",
+    "meatCut": "Lamb Pieces (curry)",
+    "price": "8.5",
+    "cooking": "Roast",
+    "picture": "./images/wcms-placeholder.png",
+    "description": "Lamb curry (also referred to as Goat curry) is a curry dish that is prepared from mutton and vegetables. Primary ingredients of mutton curry include mutton, onion, tomato and spices."
+    },
+  {
+    "product": "lamb",
+    "objectID": "403",
+    "category": "Lamb",
+    "animalCut": "Rack",
+    "meatCut": "Lamb Trim",
+    "price": "5.99",
+    "cooking": "Roast",
+    "picture": "./images/wcms-placeholder.png",
+    "description": "Lamb Trim plays well with a variety of flavours, making it an ideal sausage meat. The most popular cut for making lamb sausages is trim because of its affordability. You can also use this trim to make your own ground lamb, which is particularly good when spiced and used to make lamb burgers"
+  },
+  {
+    "product": "lamb",
+    "objectID": "404",
+    "category": "Lamb",
+    "animalCut": "Rack",
+    "meatCut": "Cutlet Frenched",
+    "price": "23",
+    "cooking": "Roast",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502849113/wcms/lamb/Lamb_rack_frenched_un_branded_pjnn8i",
+    "description": "Cutlet refers to: a thin slice of meat from the leg or ribs of veal, pork, or mutton; a fried breaded cutlet. This is a croquette or cutlet-shaped patty made of ground meat."
+  },
+  {
+    "product": "lamb",
+    "objectID": "501",
+    "category": "Lamb",
+    "animalCut": "Breast",
+    "meatCut": "Flaps",
+    "price": "5.50kg",
+    "cooking": "Roast",
+    "picture": "./images/wcms-placeholder.png",
+    "description": "This thin cut runs along the belly. The fatty, flavourful meat, with its many tiny rib bones, may be boned and cooked whole by braising, which results in tender meat. The flaps is also sold for making grilled lamb burgers."
+  },
+  {
+    "product": "lamb",
+    "objectID": "502",
+    "category": "Lamb",
+    "animalCut": "Breast",
+    "meatCut": "Ribletts",
+    "price": "8",
+    "cooking": "Roast",
+    "picture": "./images/wcms-placeholder.png",
+    "description": "One of the most cost-conscious cuts of lamb, the lamb riblets are perfect for braising and grilling and are a great substitute for baby back pork ribs in your favourite BBQ recipe. With its tender, rich meat, the rib section is one of the better sections of the lamb. It yields rib chops for sautéing, broiling or grilling."
+  },
+  { 
+    "product": "lamb",
+    "objectID": "606",
+    "category": "Lamb",
+    "animalCut": "Fore-Quater",
+    "meatCut": "Forequarter Chop",
+    "price": "10.2",
+    "cooking": "Roast",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502849113/wcms/lamb/Lamb_forquarter_chop_ycvo90",
+    "description": "The Forequarter Chop is derived from the Forequarter. It is an economical cut that is often best cooked slowly using either a moist method, such as braising or stewing, or by slow roasting."
+  },
+  {
+    "product": "lamb",
+    "objectID": "607",
+    "category": "Lamb",
+    "animalCut": "Fore-Quarter",
+    "meatCut": "Neck Chops",
+    "price": "5.00 tray",
+    "cooking": "Roast",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502849117/wcms/lamb/Lamb_neck_rosette_yjthsb",
+    "description": "Meat from the neck section, rich in flavour but tough in stature is most commonly sold as ground lamb for lamb burgers or casseroles"
+  },
+  { 
+  "product": "lamb",
+    "objectID": "701",
+    "category": "Lamb",
+    "animalCut": "Shank",
+    "meatCut": "Shank",
+    "price": "7.50kg",
+    "cooking": "Roast",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502849125/wcms/lamb/Lamb_shank_forquarter_asiz8a",
+    "description": "This is the lower section of the leg. Hearty, economical and fully flavoured, the tough shank meat requires long, gentle braiding. A few hours of gentle simmering will result in rich, moist, spoon-tender meat. The small, lean shank is usually braised as an individual-serving cut."
+  },
+  {
+    "product": "lamb",
+    "objectID": "801",
+    "category": "Lamb",
+    "animalCut": "Other",
+    "meatCut": "Sausages",
+    "price": "3.50/T",
+    "cooking": "Roast",
+    "picture": "./images/wcms-placeholder.png",
+    "description": "A sausage is a cylindrical meat product usually made from ground mutton, along with salt, spices and other flavourings, and breadcrumbs, with a skin around it. Most fresh sausages must be refrigerated or frozen until they are cooked."
+  },
+  {
+    "product": "lamb",
+    "objectID": "802",
+    "category": "Lamb",
+    "animalCut": "Other",
+    "meatCut": "Diced",
+    "price": "14.99",
+    "cooking": "Roast",
+    "picture": "./images/wcms-placeholder.png", 
+    "description": "Cut from the shoulder, these lean pieces of meat are ready to cook in stews, casseroles and curries."
+  },
+  {
+    "product": "lamb",
+    "objectID": "803",
+    "category": "Lamb",
+    "animalCut": "Other",
+    "meatCut": "Mince",
+    "price": "8.99",
+    "cooking": "Roast",
+    "picture": "./images/wcms-placeholder.png",
+    "description": "Minced meat; meat chopped very fine; a mixture of boiled meat, suet, apples, etc, chopped very fine, to which spices and raisins are added; - used in making mince pie. Mince can be from a variety of different cuts of lamb; the middle neck, scrag end, breast or other forequarter offcuts."
+  },
+  {
+    "product": "lamb",
+    "objectID": "804",
+    "category": "Lamb",
+    "animalCut": "Other",
+    "meatCut": "Side of Lamb",
+    "price": "10.99",
+    "cooking": "Roast",
+    "picture": "./images/wcms-placeholder.png",
+    "description": "The side of lamb is where we get the lamb chops, both tender cuts that are best prepared using dry heat. The entire side of lamb can also be cooked on the grill."
+  },
+  {
+    "product": "lamb",
+    "objectID": "805",
+    "category": "Lamb",
+    "animalCut": "Other",
+    "meatCut": "Whole Lamb",
+    "price": "8.99",
+    "cooking": "Roast",
+    "picture": "./images/wcms-placeholder.png",
+    "description": "Whole Lamb is usually sold whole or halved on the bone. This part of the animal has worked hard so is better for slow roasting to break down any fibres to be really tender."
+  }
+]

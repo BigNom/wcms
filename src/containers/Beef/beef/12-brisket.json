@@ -1,0 +1,12 @@
+[
+      {
+        "product": "beef",
+        "objectID": "25",
+        "category": "Young Prime",
+        "meatCut": "Point End Brisket Deckle removed",
+        "price": "7.99",
+        "cooking": "Roast",
+        "picture": "./images/point-end-brisket.jpg",
+        "description": "The point end brisket is essentially the pectoral muscles from the chest/brisket area between the front legs. Being a well exercised muscle, the point end has a high degree of connective tissue and is best suited to slow wet cooking methods such as braising and casseroling. This beef cut is perfect for shredding as it literally pulls apart when cooked."
+      }
+]
