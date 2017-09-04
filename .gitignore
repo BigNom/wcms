@@ -23,8 +23,9 @@ Docs.md
 build/
 data/
 Config/
-public/
 ss/
+src/stories/*
+src/javascript/*
 
 database.rules.json
 .firebaserc
