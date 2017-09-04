@@ -1,89 +1,69 @@
 import React, { Component } from 'react';
-import {
-  Box
-} from 'rebass';
-import styled from 'styled-components'
-
-//import GMaps from './GMaps'
-import Footer from '../../components/Footer/'
-import Hero from '../../components/Hero/Hero'
-//import './style.css'
-
-import {
-  CustomFlex,
-  HomeFlex,
-  Main
-} from '../../components/Global/Main.js'
-
-import {
-  withGoogleMap,
-  GoogleMap,
-  Marker,
-  InfoWindow
-} from 'react-google-maps'
-
 import ContactForm from './ContactForm'
+import Footer from "../../components/Footer/";
+import GMaps from './GMaps'
+import { Col, Row, PageHeader, Checkbox, FormGroup, HelpBlock, Radio, ControlLabel, FormControl, Button } from 'react-bootstrap'
 
-const GOOGLE_MAP = "https://maps.googleapis.com/maps/api/js?key=AIzaSyB-Xxfzj2t44NyJtgnMQaam9-tw7wRxbsw";
+function FieldGroup({ id, label, help, ...props }) {
+  return (
+    <FormGroup controlId={id}>
+      <ControlLabel>{label}</ControlLabel>
+      <FormControl {...props} />
+      {help && <HelpBlock>{help}</HelpBlock>}
+    </FormGroup>
+  );
+}
 
-const google = window.google;
+const loginStyles = {
+  width: "90%",
+  maxWidth: "315px",
+  margin: "20px auto",
+  border: "1px solid #ddd",
+  borderRadius: "5px",
+  padding: "10px"
+};
 
-const GettingStartedGoogleMap = withGoogleMap(props => (
-  <GoogleMap
-    ref={props.onMapLoad}
-    defaultZoom={15}
-    center={props.center}
-  >
-    ))}
-  </GoogleMap>
-));
+const contactStyles = {
+  margin: "40px auto"
+};
+
+const headerStyles = {
+  margin: "20px auto",
+  textAlign: "center"
+};
 
 export default class Contact extends Component {
-  state = {
-    center: {
-      lat: -32.073706,
-      lng: 115.897815,
-    },
-    fields: {}
-  };
-
-  handleMarkerClick = this.handleMarkerClick.bind(this);
-  handleMarkerClose = this.handleMarkerClose.bind(this);
-
-  handleMarkerClick(targetMarker) {
-  }
-  handleMarkerClose(targetMarker) {
-
-  }
-  onSubmit = (fields) => {
-    console.log('App components: ', fields);
-    this.setState({ fields });
-  };
-
   render() {
-    return (
-          <HomeFlex>
-            <CustomFlex>
-            <ContactForm onSubmit={fields => this.onSubmit(fields)}/>
-              <GettingStartedGoogleMap
-                containerElement={
-                  <div style={{
-                    height: 400,
-                    width: 600
-                  }} />
-                }
-                mapElement={
-                  <div style={{ height: `100%` }} />
-                }
-                center={this.state.center}
-                markers={this.state.markers}
-                onMarkerClick={this.handleMarkerClick}
-                onMarkerClose={this.handleMarkerClose}
-              />
-              
-            </CustomFlex>
-            <Box width={1}><Footer /></Box>
-          </HomeFlex>
-    )
+    return <div style={contactStyles}>
+        <div className="container">
+          <div style={headerStyles} className="row">
+            <div className="col">
+              <PageHeader>Contact and Location Details</PageHeader>
+            </div>
+          </div>
+          <Row>
+            <Col xs={12} md={6}>
+              <form>
+                <FieldGroup id="formControlsEmail" type="email" label="Email address" placeholder="Enter email" />
+                <FormGroup controlId="formControlsTextarea">
+                  <ControlLabel>Textarea</ControlLabel>
+                  <FormControl componentClass="textarea" placeholder="textarea" />
+                </FormGroup>
+                <Button bsStyle="primary" bsSize="large" type="submit">
+                  Submit
+                </Button>
+              </form>
+            </Col>
+            <Col xs={12} md={6}>
+              <GMaps />
+            </Col>
+          </Row>
+        </div>
+        <div className="container-fluid">
+          <div className="row">
+            <Footer />
+          </div>
+        </div>
+      </div>;
   }
 }

@@ -6,13 +6,9 @@ import {
 } from 'react-router-dom'
 import Helmet from "react-helmet"
 
-
 //import TransitionGroup from 'react-transition-group/TransitionGroup';
 
 import { Spinner } from '@blueprintjs/core'
-import Login from './components/Auth/Login';
-import Logout from './components/Auth/Logout';
-import Messaging from './components/Auth/Messaging'
 import { app, base } from './base'
 
 import Home from './containers/Home/';
@@ -24,43 +20,7 @@ import Hero from './components/Hero/Hero'
 //import './App.css'
 
 class App extends Component {
-  constructor(){
-    super();
-    this.state = {
-      authenticated: false,
-      loading: true
-    };
-  }
-
-  componentWillMount() {
-    this.removeAuthListener = app.auth().onAuthStateChanged((user) => {
-      if (user) {
-        this.setState({
-          authenticated: true,
-          loading: false
-        })
-      } else {
-        this.setState({
-          authenticated: false,
-          loading: false
-        })
-      }
-    })
-  }
-
-  componentWillUnmount() {
-    this.removeAuthListener();
-  }
-
   render() {
-    if (this.state.loading === true) {
-      return (
-        <div style={{ textAlign: "center", position: "absolute", top: "25%", left: "50%" }}>
-          <h3>Loading</h3>
-          <Spinner />
-        </div>
-      )
-    }
     return <Router>
         <div>
           <Helmet>
@@ -75,8 +35,6 @@ class App extends Component {
           </Helmet>
           <Hero />
           <Switch>
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/logout" component={Logout} />
             <Route exact path="/" component={Home} />
             <Route path="/beef" component={Beef} />
             <Route path="/lamb" component={Lamb} />

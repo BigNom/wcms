@@ -7,9 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 import "normalize.css/normalize.css";
 import "@blueprintjs/core/dist/blueprint.css";
 
-render(
-        <App />
-, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
 
 if (module.hot) {
     module.hot.accept()
