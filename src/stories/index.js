@@ -7,6 +7,8 @@ import { linkTo } from '@storybook/addon-links';
 import Button from './Button';
 import Welcome from './Welcome';
 import App from './Searchbar';
+import Navigation from './Navigation'
+import Rooter from './Rooter'
 
 let products = [
   {
@@ -34,4 +36,10 @@ storiesOf('Button', module)
 
   storiesOf('Searchbar', module)
   .add('with text', () => <App products={products}>Hello Button</App>)
+
+  storiesOf('Navigation', module)
+  .add('Navigation', () => <Navigation></Navigation>)
+
+  storiesOf('Rooter', module)
+  .add('With navigation', () => <Rooter></Rooter>)
 

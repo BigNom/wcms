@@ -105,24 +105,38 @@ background: linear-gradient(#009fel, #3acec2);
 background-blend-mode: multiply;
 `
 
+const homeStyles = {
+  margin: "40px auto"
+};
+
+const headerStyles = {
+  margin: "20px auto",
+  textAlign: "center"
+};
+
+const ulStyles = {
+  listStyleType: "none",
+  padding: "0"
+}
+
 class Home extends Component {
   render() {
-    return <div>
-        <PageHeader>Contact and Location Details</PageHeader>
+    return <div className="container" style={homeStyles}>
         <Row>
           <Col xs={12} md={9}>
-            <H1>We have Goat in stock</H1>
-            <H2>For a limited time only we have Goat in stock. </H2>
-            <P>
+            <PageHeader>West Coast Meat Solutions</PageHeader>
+            <h1>We have Goat in stock</h1>
+            <h2>For a limited time only we have Goat in stock. </h2>
+            <p>
               Goat meat is lower in cholestrol, saturated fat and calories
-              than beef, lamb and chicken.{" "}
-            </P>
-            <P>We will have the following on sale this saturday</P>
-            <P>Goat Curry Pieces $13.50kg</P>
-            <P>Goat Legs $16.50kg</P>
+              than beef, lamb and chicken.
+            </p>
+            <p>We will have the following on sale this saturday</p>
+            <p>Goat Curry Pieces $13.50kg</p>
+            <p>Goat Legs $16.50kg</p>
             <HR />
-            <H1>Perth Markets Wholesale Clearance</H1>
-            <P>
+            <h1>Perth Markets Wholesale Clearance</h1>
+            <p>
               Based in Perth, Australia, we stock a selected range of
               premium quality beef and lamb in whole vacuum packs to
               guarantee tenderness and save the cost of having the meat
@@ -132,20 +146,20 @@ class Home extends Component {
               WholeSale Clearance Market Canning Vale. Meat can be purchased
               in bulk quantities or by the kg at prices you won't see
               anywhere else.
-            </P>
-            <P>
+            </p>
+            <p>
               The gates open at 6:00 so make sure you get in early to beat
               the rush.
-            </P>
+            </p>
             <HR />
-            <H1>Restaurant quality meat at wholesale prices</H1>
-            <P>
+            <h1>Restaurant quality meat at wholesale prices</h1>
+            <p>
               West Coast Meat Solutions supply meat to many Restaurant
               chains, Super Markets and Butchers all throughout Perth.
-            </P>
+            </p>
             <HR />
-            <H1>Buy Bulk Vacuum Packs</H1>
-            <P>
+            <h1>Buy Bulk Vacuum Packs</h1>
+            <p>
               Vacuum packing method involves placing items in a plastic film
               package, removing air from inside, and sealing the package.
               The intent of vacuum packing is usually to remove oxygen from
@@ -157,29 +171,29 @@ class Home extends Component {
               improves tenderness as proteins begin to break down – known as
               the "ageing" process. Enjoy the superb eating quality of aged
               beef.
-            </P>
-            <P>
+            </p>
+            <p>
               West Meat is a meat wholesaler that is open to the public on a
               Saturday morning. We sell wholesale meat and lamb to
               restaurants and supermarkets throughout Perth.
-            </P>
+            </p>
             <HR />
-            <H1>Halal Certified</H1>
-            <P>
+            <h1>Halal Certified</h1>
+            <p>
               West Coast Meat Solutions is certified by the Western
               Australian Halal Authority (WAHA). We are committed to
               providing customers with truly genuine Halal meat at the
               lowest prices in Perth.
-            </P>
-            </Col>
-            <Col xs={12} md={3}>
-            <AdvertCard w={[1, 1, 3 / 4]}>
-              <H4>Wholesale Clearance Market</H4>
-              <Ul>
-                <Li>Open to the Public</Li>
-                <Li>Saturday: 6:00am - 10:00am</Li>
-              </Ul>
-            </AdvertCard>
+            </p>
+          </Col>
+          <Col xs={12} md={3}>
+           
+              <h4>Wholesale Clearance Market</h4>
+              <ul style={ulStyles}>
+                <li>Open to the Public</li>
+                <li>Saturday: 6:00am - 10:00am</li>
+              </ul>
+            
 
             <RightCard width={256} my={20}>
               <Image mx={25} my={10} width={128} height={128} src={haccp} />
