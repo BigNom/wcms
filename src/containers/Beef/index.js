@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Helmet from "react-helmet";
 import styled from 'styled-components'
 import {
   Box,
@@ -27,20 +28,25 @@ const products = require('./beef/beef.json');
 export default class Beef extends React.Component{
 
   render() {
-    return (
-      <HomeFlex>
-
-      <ContentWrapper>
-        <PageHeader>
-        <Heading children="Beef Cuts" />
-        <Text bold children="Locally sourced from WA" />
-        <ProductsList products={products} />
-        </PageHeader>
-
-      </ContentWrapper>
-      <Footer />
-    </HomeFlex>
-    );
+    return <HomeFlex>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>
+            Wholesale Meat, Perth | Canning Vale Meat Markets | Cheap Meat,
+            Perth | Quality Meat, Perth | West Coast Meat Solutions
+          </title>
+          <link rel="canonical" href="https://wcm.solutions" />
+          <meta name="description" content="Wholesale Meat suppliers to Perth food service industries and supermarkets." />
+        </Helmet>
+        <ContentWrapper>
+          <PageHeader>
+            <Heading children="Beef Cuts" />
+            <Text bold children="Locally sourced from WA" />
+            <ProductsList products={products} />
+          </PageHeader>
+        </ContentWrapper>
+        <Footer />
+      </HomeFlex>;
 
   }
 }

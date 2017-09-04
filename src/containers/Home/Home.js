@@ -60,13 +60,13 @@ class Home extends Component {
 					<CustomCard className="custom-card" wrap p={2}>
 						<H2>West Coast Meat Solutions</H2>
 						<H2>Perth Markets Wholesale Clearance</H2>
-						<P>
-							Based in Perth, Australia, we stock a selected range of premium quality beef and lamb in whole vacuum packs
-									to guarantee tenderness and save the cost of having the meat prepared by a butcher. Lower prices are the direct
-									result of bulk buying power and less handling. West Coast Meat Solutions are open to the public on Saturday
-									morning as part of the WholeSale Clearance Market Canning Vale. Meat can be purchased in bulk quantities or by
-									the kg at prices you won't see anywhere else.
-									</P>
+					<P>
+						Based in Perth, Australia, we stock a selected range of premium quality beef and lamb in whole vacuum packs
+								to guarantee tenderness and save the cost of having the meat prepared by a butcher. Lower prices are the direct
+								result of bulk buying power and less handling. West Coast Meat Solutions are open to the public on Saturday
+								morning as part of the WholeSale Clearance Market Canning Vale. Meat can be purchased in bulk quantities or by
+								the kg at prices you won't see anywhere else.
+								</P>
 						<P>
 							The gates open at 6:00 so make sure you get in early to beat the rush.
 									</P>

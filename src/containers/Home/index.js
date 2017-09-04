@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SlideShowContainer from '../../components/SlideShow/'
+import { Col, Row, PageHeader, Checkbox, FormGroup, HelpBlock, Radio, ControlLabel, FormControl } from 'react-bootstrap'
 
 import { Box } from 'grid-styled';
 import styled from 'styled-components'
@@ -106,10 +107,10 @@ background-blend-mode: multiply;
 
 class Home extends Component {
   render() {
-    return (
-    <HomeFlex>
-        <ContentWrapper className="main">
-          <CustomCard className="custom-card" w={[1, 1, 2/3]}>
+    return <div>
+        <PageHeader>Contact and Location Details</PageHeader>
+        <Row>
+          <Col xs={12} md={9}>
             <H1>We have Goat in stock</H1>
             <H2>For a limited time only we have Goat in stock. </H2>
             <P>
@@ -170,10 +171,9 @@ class Home extends Component {
               providing customers with truly genuine Halal meat at the
               lowest prices in Perth.
             </P>
-          </CustomCard>
-
-          <Box flex="1 1 auto" w={[1, 1, 1/3]}>
-            <AdvertCard w={[1, 1, 3/4]}>
+            </Col>
+            <Col xs={12} md={3}>
+            <AdvertCard w={[1, 1, 3 / 4]}>
               <H4>Wholesale Clearance Market</H4>
               <Ul>
                 <Li>Open to the Public</Li>
@@ -183,30 +183,22 @@ class Home extends Component {
 
             <RightCard width={256} my={20}>
               <Image mx={25} my={10} width={128} height={128} src={haccp} />
-    
-                <A href="https://www.haccp.com.au/" target="_blank">
-          
-                </A>
+
+              <A href="https://www.haccp.com.au/" target="_blank" />
             </RightCard>
             <RightCard width={256}>
               <Avatar size={128} src={halal} mx={25} p={2} />
 
-                <A href="http://www.halalbooklet.com/index.html" target="_blank">
-
-                </A>
-
+              <A href="http://www.halalbooklet.com/index.html" target="_blank" />
             </RightCard>
             <RightCard width={256}>
               <Avatar size={128} src={msa} mx={25} p={2} />
-                <A href="https://www.mla.com.au/marketing-beef-and-lamb/meat-standards-australia/" target="_blank">
-                </A>
-           
+              <A href="https://www.mla.com.au/marketing-beef-and-lamb/meat-standards-australia/" target="_blank" />
             </RightCard>
-          </Box>
-        </ContentWrapper>
+          </Col>
+        </Row>
         <Footer />
-      </HomeFlex>
-    );
+      </div>;
   }
 }
 
