@@ -1,34 +1,46 @@
 import React, { Component } from "react";
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
+import { LinkContainer } from 'react-router-bootstrap'
+import logo from './logo.svg'
+import './Navigation.css'
 
 class Navigation extends Component {
   render() {
-    return (
-      <Navbar inverse collapseOnSelect>
+    return <Navbar collapseOnSelect>
         <Navbar.Header>
-          <Navbar.Brand>
-            <a href="#">React Web</a>
-          </Navbar.Brand>
+          <LinkContainer exact="true" to="/">
+            <img src={logo} alt="west coast meat solutions logo" />
+          </LinkContainer>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <NavItem eventKey={1} href="#">
-              Link
-            </NavItem>
-            <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Action</MenuItem>
-              <MenuItem divider />
-            </NavDropdown>
+            <LinkContainer to="/wholesale">
+              <NavItem eventKey={1}>Wholesale Market</NavItem>
+            </LinkContainer>
+            <LinkContainer to="/beef">
+              <NavItem eventKey={2} href="#">
+                Beef
+              </NavItem>
+            </LinkContainer>
+            <LinkContainer to="/lamb">
+              <NavItem eventKey={3} href="#">
+                Lamb
+              </NavItem>
+            </LinkContainer>
+            <LinkContainer to="/contact">
+              <NavItem eventKey={4} href="#">
+                Contact Us
+              </NavItem>
+            </LinkContainer>
           </Nav>
           <Nav pullRight>
-            <NavItem eventKey={1} href="#">
-              Link Right
+            <NavItem eventKey={5} href="#">
+              9455 7962
             </NavItem>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
-    );
+      </Navbar>;
   }
 }
 

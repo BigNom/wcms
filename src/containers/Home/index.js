@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import SlideShowContainer from '../../components/SlideShow/'
-import { Col, Row, PageHeader, Checkbox, FormGroup, HelpBlock, Radio, ControlLabel, FormControl } from 'react-bootstrap'
+import { Well, Col, Row, PageHeader, Checkbox, FormGroup, HelpBlock, Radio, ControlLabel, FormControl } from 'react-bootstrap'
 
 import { Box } from 'grid-styled';
 import styled from 'styled-components'
@@ -124,16 +124,7 @@ class Home extends Component {
     return <div className="container" style={homeStyles}>
         <Row>
           <Col xs={12} md={9}>
-            <PageHeader>West Coast Meat Solutions</PageHeader>
-            <h1>We have Goat in stock</h1>
-            <h2>For a limited time only we have Goat in stock. </h2>
-            <p>
-              Goat meat is lower in cholestrol, saturated fat and calories
-              than beef, lamb and chicken.
-            </p>
-            <p>We will have the following on sale this saturday</p>
-            <p>Goat Curry Pieces $13.50kg</p>
-            <p>Goat Legs $16.50kg</p>
+            <h1>Welcome to West Coast Meat Solutions</h1>
             <HR />
             <h1>Perth Markets Wholesale Clearance</h1>
             <p>
@@ -185,15 +176,37 @@ class Home extends Component {
               providing customers with truly genuine Halal meat at the
               lowest prices in Perth.
             </p>
+            <HR />
+
+            <h1>We have Goat in stock</h1>
+            <h2>For a limited time only we have Goat in stock. </h2>
+            <p>
+              Goat meat is lower in cholestrol, saturated fat and calories
+              than beef, lamb and chicken.
+            </p>
+            <p>We will have the following on sale this saturday</p>
+            <p>Goat Curry Pieces $13.50kg</p>
+            <p>Goat Legs $16.50kg</p>
           </Col>
           <Col xs={12} md={3}>
-           
+            <Well>
               <h4>Wholesale Clearance Market</h4>
               <ul style={ulStyles}>
                 <li>Open to the Public</li>
                 <li>Saturday: 6:00am - 10:00am</li>
               </ul>
-            
+              <h4>Address</h4>
+            </Well>
+            <div>
+              <address>
+                <strong>West Coast Meat Solutions</strong>
+                <br />
+                West Wing 4 Market City,<br />
+                280 Bannister Road,<br />
+                Canning Vale WA 6155
+                <abbr title="Phone">P:</abbr> 9455 7962
+              </address>
+            </div>
 
             <RightCard width={256} my={20}>
               <Image mx={25} my={10} width={128} height={128} src={haccp} />

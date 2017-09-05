@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import {
 		Button,
@@ -33,49 +34,40 @@ import {
 
 export default class Footer extends Component {
   render() {
-		return (
-			<FooterWrapper>
-				<FooterRowLinks>
-						<FooterNavItem to="/">Home</FooterNavItem>
-						<FooterNavItem to="/beef">Beef</FooterNavItem>
-						<FooterNavItem to="/lamb">Lamb</FooterNavItem>
-						<FooterNavItem to="/contact">Contact Us</FooterNavItem>
-				</FooterRowLinks>
-				<FooterRowSocial>
-				<FacebookButton
-              color='white'
-              bg='blue'
-            ><A href="https://www.facebook.com/" target="_blank"></A></FacebookButton>
-				</FooterRowSocial>
-				<FooterRowAddress>
-					<List>
-						<ListItem>
-							<ListItemTitle>Address</ListItemTitle>
-							<ListItemTitle>West Wing 4 Market City,</ListItemTitle>
-							<ListItemTitle>280 Bannister Road,</ListItemTitle>
-							<ListItemTitle>Canning Vale WA 6155</ListItemTitle>
-						</ListItem>
-					</List>
-				</FooterRowAddress>
-				<Embed>
-					<iframe
-						width="350"
-						height="300"
-						src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhdlWnH69MioRxgsAmZr370w&key=AIzaSyBuiiGlV57y-miH70QureBPQofKDE1WxHU">
-					</iframe>
-				</Embed>
+		return <FooterWrapper>
+        <FooterRowLinks>
+          <FooterNavItem to="/">Home</FooterNavItem>
+          <FooterNavItem to="/beef">Beef</FooterNavItem>
+          <FooterNavItem to="/lamb">Lamb</FooterNavItem>
+          <FooterNavItem to="/contact">Contact Us</FooterNavItem>
+        </FooterRowLinks>
+        <FooterRowSocial>
+          <FacebookButton color="white" bg="blue">
+            <A href="https://www.facebook.com/" target="_blank" />
+          </FacebookButton>
+        </FooterRowSocial>
+        <FooterRowAddress>
+          <List>
+            <ListItem>
+              <ListItemTitle>Address</ListItemTitle>
+              <ListItemTitle>West Wing 4 Market City,</ListItemTitle>
+              <ListItemTitle>280 Bannister Road,</ListItemTitle>
+              <ListItemTitle>Canning Vale WA 6155</ListItemTitle>
+            </ListItem>
+          </List>
+        </FooterRowAddress>
+        <Embed>
+          <iframe width="350" height="300" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhdlWnH69MioRxgsAmZr370w&key=AIzaSyBuiiGlV57y-miH70QureBPQofKDE1WxHU" />
+        </Embed>
 
-				<FooterCopyright>
-					<Divider w={1} color='grey' />
-					<A href="/sitemap.html">Sitemap</A>
-					<A href="/sitemap.html">Privacy policy</A>
-					<br />
-					<Small
-						children='Copyright &#169; 2017'
-					></Small>
-				</FooterCopyright>
-
-			</FooterWrapper>
-        )
+        <FooterCopyright>
+          <Divider w={1} color="grey" />
+          <Link to="/sitemap">Sitemap           
+          </Link>
+          <Link to="/privacy">Privacy policy</Link>
+          <br />
+          <Small children="Copyright &#169; 2017" />
+        </FooterCopyright>
+      </FooterWrapper>;
     };
 }

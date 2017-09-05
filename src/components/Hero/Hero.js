@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from '../Navbar/Nav'
+import Navigation from '../Navbar/Navigation'
 import { 
 Container
  } from './Hero.style.js'
@@ -9,7 +9,7 @@ export default class Hero extends React.Component {
         return <div>
             <Container>
             </Container>
-            <Nav />
+            <Navigation />
           </div>;
     }
 }

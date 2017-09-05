@@ -1,0 +1,39 @@
+
+.card.open .header::before {
+  content: "▼ "
+}
+
+.card.closed .header::before {
+  content: "► "
+}
+
+.header {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card.closed .body {
+  display: none;
+}
+
+.body>img {
+  margin: 16px -24px 16px;
+  width: 200px;
+}
+
+span.shin {
+  background: #ffc6e5;
+}
+
+span.silverside {
+  background: #00CCFF;
+
+}
+
+svg.shin {
+  background-color: pink;
+}
+
+#path-color.shin {
+  color: red;
+}
