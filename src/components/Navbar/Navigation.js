@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
 import { LinkContainer } from 'react-router-bootstrap'
-import logo from './logo.svg'
+import logoSm from './logoSm.svg'
 import './Navigation.css'
 
 class Navigation extends Component {
   render() {
-    return <Navbar collapseOnSelect>
+    return <Navbar collapseOnSelect fluid>
         <Navbar.Header>
-          <LinkContainer exact="true" to="/">
-            <img src={logo} alt="west coast meat solutions logo" />
+          <LinkContainer exact={true} to="/">
+            <img src={logoSm} alt="west coast meat solutions logo" />
           </LinkContainer>
           <Navbar.Toggle />
         </Navbar.Header>

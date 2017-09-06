@@ -8,8 +8,6 @@ import {
 } from '../../components/Global/Main.js'
 
 import ProductList from './ProductList'
-import Footer from '../../components/Footer/'
-import Hero from '../../components/Hero/Hero'
 
 const products = require('./lamb/lamb.json');
 
@@ -23,7 +21,7 @@ export default class Lamb extends React.Component{
             <ProductList products={products} />
           </PageHeader>
         </CustomFlex>
-        <Footer />
+
       </HomeFlex>);
   }
 }

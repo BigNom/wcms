@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Card from './Card'
+import Thumb from './Thumb'
 
 import {
   CustomFlex,
@@ -8,10 +8,10 @@ import {
 
 const ProductList = ({products}) => {
   return (
-    <CustomFlex>
+    <div>
       {
         products.map(product => (
-          <Card 
+          <Thumb
           key={product.objectID}
           meatCut={product.meatCut}
           animalCut={product.animalCut}
@@ -20,7 +20,7 @@ const ProductList = ({products}) => {
           description={product.description}
           />
       ))}
-    </CustomFlex>
+    </div>
   )
 }
 

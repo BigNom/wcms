@@ -11,40 +11,8 @@
     "picture": "./images/beef/osso-bucco.png",
     "description": "Osso buco is a Milanese speciality of cross-cut veal shanks braised with vegetables, white wine and broth. It is often garnished with gremolata. The tissue breaks down when prepared using slow moist cooking methods such as casseroling and braising imparting a rich, full bodied flavour and a delicious gelatinous texture."
   },
-  {
-    "product": "beef",
-    "markets": "false",
-    "objectID": "10",
-    "category": "Young Prime",
-    "animalCut": "shin",
-    "meatCut": "Dolphin Shin",
-    "price": "8.5",
-    "cooking": "Slow Cook",
-    "picture": "./images/wcms-placeholder.png",
-    "description": "Generally regarded as one of the tougher cuts of meat, the dolphin shin is typically sold as a stewing meat or in mince form. The shin can also be provided in bone cuts, but is only suitable for a very slow cook to enable the meat to break down."
-  },
-  {
-    "product": "beef",
-    "objectID": "16",
-    "category": "Young Prime",
-    "animalCut": "shin",
-    "meatCut": "Heel Shin",
-    "price": "8.2",
-    "cooking": "Slow Cook",
-    "picture": "./images/wcms-placeholder.png",
-    "description": "Classic slow cooking meat when combined with its ideal partner, cow heel, it will certainly stick to your ribs in the cold weather.  The shin breaks down to provide tasty meat and a thick gravy, beautifully tender."
-  },
-  {
-    "product": "beef",
-    "objectID": "14",
-    "category": "Young Prime",
-    "animalCut": "shin",
-    "meatCut": "Boneless Shin",
-    "price": "7.1",
-    "cooking": "Slow Cook",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/Beef_shin_boneless_ofef8f",
-    "description": "A cost-effective Beef portion, the Boneless Shin is taken from the front part of a cow’s lower leg. Much like other tough portions of Beef, slow-moist cooking methods are recommended to break the connective tissues and soften up this cut. Braising and stewing work well with the Boneless Shin cut. The Boneless Shin is extracted from the fore and hind parts of an animal’s legs."
-  },
+
+
   {
     "product": "beef",
     "objectID": "11",
@@ -66,50 +34,6 @@
     "cooking": "Roast",
     "picture": "./images/beef/silverside.png",
     "description": "The silverside comes from the outside of the rear leg and sits between the knuckle and the topside Being a muscle heavily used for walking, the silverside requires the gentle moist cooking of corning to produce a tender and delicious beef dish."
-  },
-  {
-    "product": "beef",
-    "objectID": "26",
-    "category": "Young Prime",
-    "meatCut": "SilverSide Roast",
-    "animalCut": "silverside",
-    "price": "9.5",
-    "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
-    "description": "Taken from the hindquarter this is a large, lean, boneless cut of meat with very little marbling of fat and a wide-grained texture. It gets its name from the shiny silvery membrane covering its internal surface. The silverside requires gentle moist cooking of corning to produce a tender and delicious roast dish."
-  },
-  {
-    "product": "beef",
-    "objectID": "40",
-    "category": "Young Prime",
-    "meatCut": "TopSide",
-    "animalCut": "silverside",
-    "price": "7.49",
-    "cooking": "Roast",
-    "picture": "./images/beef/topside.png",
-    "description": "Topside comes from the inside of the hind leg, between the thick flank and the silverside. Topside is extremely lean and performs best when diced for slow-cooking in a hearty casserole or braise."
-  },
-  {
-    "product": "beef",
-    "objectID": "41",
-    "category": "Young Prime",
-    "meatCut": "TopSide Clean",
-    "animalCut": "silverside",
-    "price": "11.2",
-    "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
-    "description": "Topside comes from the inside of the hind leg, between the thick flank and the silverside. Topside is extremely lean and performs best when diced for slow-cooking in a hearty casserole or braise."
-  },
-  {
-    "product": "beef",
-    "objectID": "42",
-    "category": "Young Prime",
-    "meatCut": "TopSide Cap Off",
-    "animalCut": "silverside",
-    "price": "10.5",
-    "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
-    "description": "Topside Cap Off is prepared from the Topside (item 2000) by the removal of the M. gracilis muscle along the natural seam. Fat deposits are removed. Topside cap off is extremely lean and performs best when diced for slow-cooking in a braise or minced (with added fat) for burgers.  Topside cap off responds well to tenderisation."
   },
   {
     "product": "beef",
@@ -143,50 +67,6 @@
     "cooking": "Roast",
     "picture": "./images/beef/rump-steak.png",
     "description": "A beef round rump cut, whether it is boneless or bone-in, is a flavourful meat, but it needs some care to prevent toughness when cooking. This cut of meat is usually wet-roasted or braised to prevent the meat drying out. However, the rump can also be sliced into steaks and pan-fried."
-  },
-  {
-    "product": "beef",
-    "objectID": "3",
-    "category": "Young Prime",
-    "meatCut": "Butt Fillet",
-    "animalCut": "tenderloin",
-    "price": "16.5",
-    "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
-    "description": "Boneless butt tenderloin is the thickest end of the tenderloin, which is a long fillet cut from a loin of beef. The meat is very tender, making it suitable as cuts of beef roast or steak. Since this cut is taken from muscle that generally doesn’t get much of a workout, it’s not necessary to cook the meat with moist heat, a method reserved for less tender cuts. Whole-muscle meat, like boneless butt tenderloin, can be safely cooked to lower internal temperatures than some other cuts."
-  },
-  {
-    "product": "beef",
-    "objectID": "6",
-    "category": "Young Prime",
-    "meatCut": "Tenderloin Whole",
-    "animalCut": "tenderloin",
-    "price": "19.5",
-    "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502840844/wcms/Beef_tenderloin_whole_fmu56b.jpg",
-    "description": "Beef tenderloin is the most expensive cut of meat on the steer. But, there are ways to minimize that cost. The best way is to buy the tenderloin whole and untrimmed, bring it home, and trim it yourself. With little or no fat or connective tissue the fillet is best suited to portioning into steaks for pan-frying and barbecuing or strips for stir-frying, but is equally delicious roasted whole in a very hot oven."
-  },
-  {
-    "product": "beef",
-    "objectID": "13",
-    "category": "Young Prime",
-    "animalCut": "flank",
-    "meatCut": "Flank Steak",
-    "price": "11",
-    "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/Beef_flank_whole_joltzu",
-    "description": "The flank steak is a beef steak cut from the abdominal muscles or lower chest of the cow. The flank is located directly beneath the loin in the abdominal area. long and flat, it has a coarse grain running along its length which adds another dimension to its appeal and application. Flank steak also performs extremely well under slow-cooking conditions."
-  },
-  {
-    "product": "beef",
-    "objectID": "38",
-    "category": "Young Prime",
-    "animalCut": "flank",
-    "meatCut": "Thick Skirt",
-    "price": "7.5",
-    "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/Beef_inside_skirt_vatlfv",
-    "description": "Thick Skirt also known as Hanger Steak or Onlae, is renowned for its incredible intense flavour rather than its tenderness. The steak is covered with a tough membrane which should be removed before cooking. After slow-cooking this beef cut can be shredded with a fork and added to burritos or salads."
   },
   {
     "product": "beef",
@@ -265,24 +145,7 @@
     "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/Beef_short_ribs",
     "description": "Short ribs are a cut of beef taken from the brisket, chuck, plate, or rib areas of beef cattle. They consist of a short portion of the rib bone, which is overlain by meat which varies in thickness. Short ribs taste great when they are slow cooked in red wine and stock."
   },
-  {
-    "product": "beef",
-    "objectID": "0",
-    "category": "Young Prime",
-    "animalCut": "blade",
-    "meatCut": "Bolar Roast cut in half",
-    "isInStock": "true",
-    "price": "8.99",
-    "saving": "2.00",
-    "picture": "./images/BLDRST_RET.jpg",
-    "description": "It's taken from the part of the carcass that they call the, Blade, but the Bolar part of their blade is more commonly referred to in the United States as, Bottom Sirloin', or after defatting and trimming, Triangle Tip. Is tastes great when it is cooked whole as a roast, sliced into steaks and cooked on the barbecue or in a pan.",
-    "cooking": [
-      {
-        "barbecue": "./images/cooking/barbecue.png",
-        "pan": "./images/cooking/pan.png"
-      }
-    ]
-  },
+
   {
     "product": "beef",
     "objectID": "24",
@@ -321,17 +184,6 @@
   },
   {
     "product": "beef",
-    "objectID": "8",
-    "category": "Young Prime",
-    "animalCut": "chuck",
-    "meatCut": "Chuck Tender",
-    "price": "8.99",
-    "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
-    "description": "This cut is usually grilled or broiled; a thicker version is sold as a 7-bone roast or chuck roast and is usually cooked with liquid as a pot roast. The bone-in chuck steak or roast is one of the more economical cuts of beef. Perfect for slow cooked meals, curries and stews with a great rich flavour."
-  },
-  {
-    "product": "beef",
     "objectID": "32",
     "category": "Young Prime",
     "animalCut": "chuck",
@@ -340,17 +192,6 @@
     "cooking": "Roast",
     "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502838206/wcms/Beef_chuck_ribs",
     "description": "Short ribs are cut from the Chuck and the Plate (top of the rib bones) and beef back ribs are what is remaining after the rib roast is boned out. Short Ribs are cut parallel to the bone and may also be sold boneless. This meat is rich in flavour."
-  },
-  {
-    "product": "beef",
-    "objectID": "25",
-    "category": "Young Prime",
-    "animalCut": "brisket",
-    "meatCut": "Point End Brisket Deckle removed",
-    "price": "7.99",
-    "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/Beef_point_end_brisket_jq6ack",
-    "description": "The point is a lump of meat that partially overlaps one end of the flat. Avoid small, super-trimmed brisket flats with the point removed. The point end brisket is essentially the pectoral muscles from the chest/ brisket area between the front legs. Being a well exercised muscle, the point end has a high degree of connective tissue and is best suited to slow wet cooking methods such as braising and casseroling. This beef cut is perfect for shredding as it literally pulls apart when cooked."
   },
   {
     "product": "beef",
@@ -456,7 +297,7 @@
     "category": "Misc",
     "animalCut": "other",
     "meatCut": "Sausage Beef",
-    "price": "5",
+    "price": "10 for 2kg",
     "cooking": "Roast",
     "picture": "./images/wcms-placeholder.png",
     "description": "Our beef sausages are slow-cooked with natural spices using quality cuts of meat."

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ContactForm from './ContactForm'
-import Footer from "../../components/Footer/";
 import GMaps from './GMaps'
 import { Col, Row, PageHeader, Checkbox, FormGroup, HelpBlock, Radio, ControlLabel, FormControl, Button } from 'react-bootstrap'
 
@@ -58,11 +57,6 @@ export default class Contact extends Component {
               <GMaps />
             </Col>
           </Row>
-        </div>
-        <div className="container-fluid">
-          <div className="row">
-            <Footer />
-          </div>
         </div>
       </div>;
   }

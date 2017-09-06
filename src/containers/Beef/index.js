@@ -19,7 +19,6 @@ import {
 } from '../../components/Global/Main.js'
 
 import ProductsList from './ProductsList'
-import Footer from '../../components/Footer/'
 import Searchbar from '../../components/Searchbar/'
 
 const products = require('./beef/beef.json');
@@ -45,7 +44,6 @@ export default class Beef extends React.Component{
             <ProductsList products={products} />
           </PageHeader>
         </ContentWrapper>
-        <Footer />
       </HomeFlex>;
 
   }
