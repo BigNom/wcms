@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, PageHeader, Panel, Well } from 'react-bootstrap'
 
-import ProductList from './ProductList'
+import ProductsList from './ProductsList'
+import FilteredList from './FilteredList'
 
 const products = require("./data.json");
-console.log(products)
-
-const price = products.price
-console.log(price)
-
-const thumbRowStyles = {
-  display: "flex",
-}
 
 export default class Wholesale extends React.Component{
+
   render() {
     return <div>
         <Grid>
@@ -26,9 +20,6 @@ export default class Wholesale extends React.Component{
                 there is a surcharge of $4 for vehicles. The money is
                 collected by the Rotary Club of Willetton on entry.
               </Panel>
-      
-                <ProductList products={products} />
-       
             </Col>
             <Col xs={12} md={3}>
               <Well>
@@ -38,6 +29,11 @@ export default class Wholesale extends React.Component{
                   <li>Saturday: 6:00am - 10:00am</li>
                 </ul>
               </Well>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} md={12}>
+              <FilteredList products={products} />
             </Col>
           </Row>
         </Grid>

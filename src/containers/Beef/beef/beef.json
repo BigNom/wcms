@@ -1,35 +1,38 @@
 [
   {
     "product": "beef",
-    "markets": "true",
-    "objectID": "23",
+    "objectID": "1",
     "category": "Young Prime",
     "animalCut": "shin",
     "meatCut": "Osso Buco",
     "price": "6.99",
+    "weight": "2",
+    "markets": "true",
     "cooking": "Slow Cook",
     "picture": "./images/beef/osso-bucco.png",
     "description": "Osso buco is a Milanese speciality of cross-cut veal shanks braised with vegetables, white wine and broth. It is often garnished with gremolata. The tissue breaks down when prepared using slow moist cooking methods such as casseroling and braising imparting a rich, full bodied flavour and a delicious gelatinous texture."
   },
   {
     "product": "beef",
-    "markets": "false",
-    "objectID": "10",
+    "objectID": "2",
     "category": "Young Prime",
     "animalCut": "shin",
     "meatCut": "Dolphin Shin",
-    "price": "8.5",
+    "price": "8.5", 
+    "markets": "false",    
     "cooking": "Slow Cook",
     "picture": "./images/wcms-placeholder.png",
     "description": "Generally regarded as one of the tougher cuts of meat, the dolphin shin is typically sold as a stewing meat or in mince form. The shin can also be provided in bone cuts, but is only suitable for a very slow cook to enable the meat to break down."
   },
   {
     "product": "beef",
-    "objectID": "16",
+    "objectID": "3",
     "category": "Young Prime",
     "animalCut": "shin",
     "meatCut": "Heel Shin",
     "price": "8.2",
+    "weight": "1.5",
+    "markets": "true",
     "cooking": "Slow Cook",
     "picture": "./images/wcms-placeholder.png",
     "description": "Classic slow cooking meat when combined with its ideal partner, cow heel, it will certainly stick to your ribs in the cold weather.  The shin breaks down to provide tasty meat and a thick gravy, beautifully tender."
@@ -52,6 +55,8 @@
     "animalCut": "silverside",
     "meatCut": "Eyeround",
     "price": "8.5",
+    "weight": "1.5",
+    "markets": "true",
     "cooking": "Roast",
     "picture": "./images/beef/eyeround.png",
     "description": "Eye round is one of the muscles that make up silverside, a cut that sits on the outside thigh of the hind leg. It is a lean piece of beef that is best suited to cutting into a dice for slow, moist cooking methods such as a braise or casserole."
@@ -63,6 +68,8 @@
     "meatCut": "SilverSide",
     "animalCut": "silverside",
     "price": "7.99",
+    "weight": "2",
+    "markets": "true",
     "cooking": "Roast",
     "picture": "./images/beef/silverside.png",
     "description": "The silverside comes from the outside of the rear leg and sits between the knuckle and the topside Being a muscle heavily used for walking, the silverside requires the gentle moist cooking of corning to produce a tender and delicious beef dish."
@@ -85,6 +92,8 @@
     "meatCut": "TopSide",
     "animalCut": "silverside",
     "price": "7.49",
+    "weight": "4.5",
+    "markets": "true",
     "cooking": "Roast",
     "picture": "./images/beef/topside.png",
     "description": "Topside comes from the inside of the hind leg, between the thick flank and the silverside. Topside is extremely lean and performs best when diced for slow-cooking in a hearty casserole or braise."
@@ -129,6 +138,8 @@
     "meatCut": "Rump",
     "animalCut": "knuckle",
     "price": "9.99",
+    "weight": "2.5",
+    "markets": "true",
     "cooking": "Roast",
     "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale/v1502851184/wcms/Beef_rump_whole_azl2z6",
     "description": "Another well-known cut of beef, the rump is generally a slightly cheaper cut than its neighbour the sirloin due to not being quite as tender. Can be used for roasts or cutting into steaks. Many consider the rump to contain more flavour than the sirloin. It is a great full flavoured piece of beef."
@@ -206,6 +217,8 @@
     "animalCut": "shortloin",
     "meatCut": "Whole Sirloin",
     "price": "11.2",
+    "weight": "1.5",
+    "markets": "true",
     "cooking": "Roast",
     "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502840976/wcms/Beef_shortloin_whole_lxrpbn",
     "description": "The Sirloin comes from the hindquarter of the carcase and is separated from the rump by a straight cut between the last vertebrae along the back and the hip bone. The tenderloin and Striploin muscles sit on opposite sides of the t-shaped bone to form the basic cut to come from the Sirloin- the T-bone steak."
@@ -228,6 +241,8 @@
     "animalCut": "cubeRoll",
     "meatCut": "Cube Roll",
     "price": "13.5",
+    "weight": "2",
+    "markets": "true",
     "cooking": "Roast",
     "picture": "./images/cube-roll.jpg",
     "description": "Cube roll is a cut of beef, usually top round or top sirloin, tenderized and flattened by pounding with a meat tenderizer or use of an electric tenderizer. The name refers to the shape of the indentations left by that process. Given its tender nature it can also be sliced into steaks to barbecue and pan-fry or strips to stir-fry."
@@ -239,6 +254,8 @@
     "animalCut": "cubeRoll",
     "meatCut": "Beef Fingers",
     "price": "7.5",
+    "weight": "2",
+    "markets": "true",
     "cooking": "Roast",
     "picture": "./images/wcms-placeholder.png",
     "description": "Beef Fingers usually consist of 2–3 long by 1/2 wide strips of steak (usually top sirloin), battered with a tempura-like or flour batter, and deep-fried in oil. Typically, they are served with French fries and a buttered piece of thick toast."
@@ -289,8 +306,9 @@
     "category": "Young Prime",
     "animalCut": "blade",
     "meatCut": "Oyster blade",
-    "isInStock": "true",
+    "markets": "true",
     "price": "7.99",
+    "weight": "1.5",
     "saving": "2.00",
     "cooking": "Roast",
     "picture": "./images/oysterblade-whole.jpg",
@@ -302,8 +320,9 @@
     "category": "Young Beef",
     "animalCut": "chuck",
     "meatCut": "Chuck",
-    "isInStock": "true",
+    "markets": "true",
     "price": "8.99",
+    "weight": "2-3",
     "cooking": "Roast",
     "picture": "./images/wcms-placeholder.png",
     "description": "Being one of the neck muscles used to support the head, chuck contains a great deal of connective tissue and therefore suits moist slow-cooking techniques that break down the connective tissue. It is best for curries and stews with great full flavour and a fantastic gelatinous texture."
@@ -337,6 +356,8 @@
     "animalCut": "chuck",
     "meatCut": "Chuck Rib Plate",
     "price": "6",
+    "weight": "2-3",
+    "markets": "true",
     "cooking": "Roast",
     "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502838206/wcms/Beef_chuck_ribs",
     "description": "Short ribs are cut from the Chuck and the Plate (top of the rib bones) and beef back ribs are what is remaining after the rib roast is boned out. Short Ribs are cut parallel to the bone and may also be sold boneless. This meat is rich in flavour."
@@ -370,6 +391,8 @@
     "animalCut": "other",
     "meatCut": "Beef Cheeck",
     "price": "9.99",
+    "weight": "1-2",
+    "markets": "true",
     "cooking": "Roast",
     "picture": "./images/wcms-placeholder.png",
     "description": "A less common cut of meat, the cheek is again best served slow cooked and moist to release the flavours and keep a moist consistency. Generally, a cheap cut of meat, if cooked with patience can serve smiles all round!"
@@ -435,6 +458,8 @@
     "animalCut": "other",
     "meatCut": "Corned SilverSide",
     "price": "7.99",
+    "weight": "2",
+    "markets": "true",
     "cooking": "Roast",
    "picture": "./images/wcms-placeholder.png",
     "description": "Corned SilverSide beef is a salt-cured beef product. The term comes from the treatment of the meat with large grained rock salt, also called 'corns' of salt. Most recipes include nitrates or nitrites, which gives the beef a pinkish colour."
@@ -455,8 +480,10 @@
     "objectID": "73",
     "category": "Misc",
     "animalCut": "other",
-    "meatCut": "Sausage Beef",
+    "meatCut": "Beef Sausages",
     "price": "5",
+    "weight": "2",
+    "markets": "true",
     "cooking": "Roast",
     "picture": "./images/wcms-placeholder.png",
     "description": "Our beef sausages are slow-cooked with natural spices using quality cuts of meat."

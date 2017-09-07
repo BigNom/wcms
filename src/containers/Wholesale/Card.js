@@ -51,7 +51,7 @@ const Card = ({ open, setOpen, animalCut, meatCut, picture, description, price})
       <TopWrapper>
         <CardTitle>
           <H3>{meatCut}</H3>
-          <div className="price">$ {price}</div>
+          <div className="price">$ {price} per kg</div>
           <svg height="2" width="75%" className={animalCut}>
           </svg>
         </CardTitle>

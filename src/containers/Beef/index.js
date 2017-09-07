@@ -31,8 +31,7 @@ export default class Beef extends React.Component{
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Wholesale Meat, Perth | Canning Vale Meat Markets | Cheap Meat,
-            Perth | Quality Meat, Perth | West Coast Meat Solutions
+            Wholesale Beef, Perth | Cheap Beef, Perth | Halal Certified Beef, Perth | Side of Beef | Buy Bulk Beef | Quality Meat, Perth | West Coast Meat Solutions
           </title>
           <link rel="canonical" href="https://wcm.solutions" />
           <meta name="description" content="Wholesale Meat suppliers to Perth food service industries and supermarkets." />
