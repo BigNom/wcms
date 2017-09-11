@@ -8,6 +8,7 @@ coverage
 
 # production
 # build
+build/
 
 # misc
 .DS_Store
@@ -23,9 +24,9 @@ Docs.md
 data/
 Config/
 ss/
-src/stories/**
-src/javascript/**
-src/base.js
+stories/
+javascript/
+base.js
 
 database.rules.json
 .firebaserc

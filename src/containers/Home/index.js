@@ -175,13 +175,10 @@ class Home extends Component {
                 </NavItem>
               </LinkContainer>
             </Thumbnail>
-            <Thumbnail>
+            <Thumbnail src={picture}>
               <LinkContainer to="/wholesale">
                 <NavItem eventKey={1}>Wholesale Market</NavItem>
               </LinkContainer>
-              <h3 />
-              <p>$ per kg</p>
-              <p>Average package weighs kg</p>
             </Thumbnail>
           </Col>
         </Row>
