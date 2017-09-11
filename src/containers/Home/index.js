@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import SlideShowContainer from '../../components/SlideShow/'
 import { 
   Well, Col, Row, PageHeader, Checkbox, FormGroup, HelpBlock, Thumbnail,
-   Radio, ControlLabel, FormControl,
+   Radio, ControlLabel, FormControl, NavItem,
   Media } from 'react-bootstrap'
+  import { LinkContainer } from "react-router-bootstrap";
 
 import { Box } from 'grid-styled';
 import styled from 'styled-components'
@@ -31,6 +32,10 @@ import beef from './beef-is-the-greatest.jpg'
 import halal from './halal.jpg'
 import Goat from './goats-350.jpg'
 
+const linkStyles = {
+  color: "white"
+};
+
 const homeStyles = {
   margin: "40px auto"
 };
@@ -52,35 +57,28 @@ class Home extends Component {
             <Well>
               <h1>Wholesale</h1>
               <p>
-                West Coast Meat Solutions supply an extensive range of premium meat to supermarkets, butchers, restaurants and food
-                distributors all over Perth. Our boning room facility processes on average 150 bodies of young and prime beef a week. We are one
-                of the only facilities open to the public in the state. Our facility uses the latest state of the art technology.
+                West Coast Meat Solutions supply an extensive range of
+                premium meat to supermarkets, butchers, restaurants and food
+                distributors all over Perth. Our boning room facility
+                processes on average 150 bodies of young and prime beef a
+                week. We are one of the only facilities open to the public
+                in the state. Our facility uses the latest state of the art
+                technology.
               </p>
               <HR />
-              <p>
-                Based in Perth, Australia, we stock a selected range of
-                premium quality beef and lamb in whole vacuum packs to
-                guarantee tenderness and save the cost of having the meat
-                prepared by a butcher. Lower prices are the direct result of
-                bulk buying power and less handling.
-              </p>
+              <p />
               <HR />
               <h1>Perth Markets Wholesale Clearance</h1>
               <p>
                 West Coast Meat Solutions are open to the public on Saturday
                 morning as part of the WholeSale Clearance Market Canning
                 Vale. Meat can be purchased in bulk quantities or by the kg
-                at prices you won't see anywhere else.
+                at prices you won't see anywhere else. Lower prices are the
+                direct result of bulk buying power and less handling.
               </p>
               <p>
                 The gates open at 6:00 so make sure you get in early to beat
                 the rush.
-              </p>
-              <HR />
-              <h1>Restaurant quality meat at wholesale prices</h1>
-              <p>
-                West Coast Meat Solutions supply meat to many Restaurant
-                chains, Super Markets and Butchers all throughout Perth.
               </p>
               <HR />
               <h1>Buy Bulk Vacuum Packs</h1>
@@ -164,6 +162,23 @@ class Home extends Component {
         <Row>
           <Col xs={12} md={4}>
             <Thumbnail>
+              <LinkContainer to="/beef">
+                <NavItem style={linkStyles} eventKey={2} href="#">
+                  Beef
+                </NavItem>
+              </LinkContainer>
+            </Thumbnail>
+            <Thumbnail>
+              <LinkContainer to="/lamb">
+                <NavItem eventKey={3} href="#">
+                  Lamb
+                </NavItem>
+              </LinkContainer>
+            </Thumbnail>
+            <Thumbnail>
+              <LinkContainer to="/wholesale">
+                <NavItem eventKey={1}>Wholesale Market</NavItem>
+              </LinkContainer>
               <h3 />
               <p>$ per kg</p>
               <p>Average package weighs kg</p>

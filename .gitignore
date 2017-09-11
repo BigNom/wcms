@@ -20,12 +20,12 @@ yarn-error.log*
 Docs.md
 .storybook
 .vscode
-build/
 data/
 Config/
 ss/
-src/stories/*
-src/javascript/*
+src/stories/**
+src/javascript/**
+src/base.js
 
 database.rules.json
 .firebaserc
