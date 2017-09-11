@@ -12,7 +12,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import logoSm from "./logoSm.svg";
 
 const linkStyles = {
-  color: "white"
+  color: "#6d6d6d"
 };
 
 const footerStyles = {
