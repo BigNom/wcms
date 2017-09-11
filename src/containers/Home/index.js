@@ -175,7 +175,7 @@ class Home extends Component {
                 </NavItem>
               </LinkContainer>
             </Thumbnail>
-            <Thumbnail src={picture}>
+            <Thumbnail>
               <LinkContainer to="/wholesale">
                 <NavItem eventKey={1}>Wholesale Market</NavItem>
               </LinkContainer>
