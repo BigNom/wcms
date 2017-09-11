@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Thumb from './Thumb'
 import Product from './Product'
-import { Form, FormControl } from 'react-bootstrap'
+import { Form, FormControl, FormGroup, Navbar } from 'react-bootstrap'
 
 class ProductsList extends React.Component {
   constructor(props){
@@ -22,14 +22,12 @@ class ProductsList extends React.Component {
       }
     )
     return <Form inline>
-        <FormControl 
-        type="text" 
-        placeholder="Search"
-        value={this.state.search} 
-        onChange={this.updateSearch.bind(this)} />
+        <FormGroup>
+          <FormControl type="text" placeholder="Search" value={this.state.search} onChange={this.updateSearch.bind(this)} />
+        </FormGroup>
         <div>
           {filteredProducts.map(product => {
-            return <Product product={product} key={product.id}/>;
+            return <Product product={product} key={product.id} />;
           })}
         </div>
       </Form>;

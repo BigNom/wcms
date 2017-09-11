@@ -4,6 +4,10 @@ import { LinkContainer } from 'react-router-bootstrap'
 import logoSm from './logoSm.svg'
 import './Navigation.css'
 
+const linkStyles = {
+  color: "white"
+}
+
 class Navigation extends Component {
   render() {
     return <Navbar collapseOnSelect fluid>
@@ -19,7 +23,7 @@ class Navigation extends Component {
               <NavItem eventKey={1}>Wholesale Market</NavItem>
             </LinkContainer>
             <LinkContainer to="/beef">
-              <NavItem eventKey={2} href="#">
+              <NavItem style={linkStyles} eventKey={2} href="#">
                 Beef
               </NavItem>
             </LinkContainer>

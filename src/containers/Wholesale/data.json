@@ -141,7 +141,7 @@
     "price": "8.99",
     "weight": "2-3",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "./images/beef/chuck.png",
     "description": "Being one of the neck muscles used to support the head, chuck contains a great deal of connective tissue and therefore suits moist slow-cooking techniques that break down the connective tissue. It is best for curries and stews with great full flavour and a fantastic gelatinous texture."
   },
   {
@@ -175,12 +175,12 @@
     "id": "4",
     "category": "Young Prime",
     "animalCut": "other",
-    "name": "Beef Cheeck",
+    "name": "Beef Cheek",
     "price": "9.99",
     "weight": "1-2",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502838190/wcms/beef/Beef_cheek.jpg",
     "description": "A less common cut of meat, the cheek is again best served slow cooked and moist to release the flavours and keep a moist consistency. Generally, a cheap cut of meat, if cooked with patience can serve smiles all round!"
   },
   {
@@ -283,7 +283,7 @@
     "markets": "true",
     "price": "11.49",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "./images/beef/stir-fry-knuckle.png",
     "description": "The food is cooked quickly by cutting into small pieces and stirring constantly in a lightly oiled wok or frying pan over high heat."
   },
   {
@@ -296,7 +296,7 @@
     "weight": "1",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "./images/beef/chuck-diced.png",
     "description": "You can create versatile, budget-friendly dinners with diced beef. Flavourful cut that offers convenience at an attractive price point; diced beef is extremely versatile and the basis for a multitude of home-style entrees such as stews. It is also good for making beef curry."
   }
 ]

@@ -3,6 +3,8 @@ import { Grid, Row, Col, PageHeader, Panel, Well } from 'react-bootstrap'
 
 import ProductsList from './ProductsList'
 import FilteredList from './FilteredList'
+import SearchNavigation from './SearchNavigation'
+
 
 const products = require("./data.json");
 

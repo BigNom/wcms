@@ -10,7 +10,7 @@ const thumbStyles = {
 };
 
 const imageStyles = {
-  height: "200px"
+  height: "150px"
 }
 
 class Product extends React.Component {
