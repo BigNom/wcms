@@ -9,6 +9,7 @@ import Welcome from './Welcome';
 import App from './Searchbar';
 import Navigation from './Navigation'
 import Rooter from './Rooter'
+import LazyLoader from './LazyLoader'
 
 let products = [
   {
@@ -42,4 +43,7 @@ storiesOf('Button', module)
 
   storiesOf('Rooter', module)
   .add('With navigation', () => <Rooter></Rooter>)
+
+  storiesOf('LazyLoader', module)
+  .add('Lazy', () => <LazyLoader></LazyLoader>)
 
