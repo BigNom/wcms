@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import ContactForm from './ContactForm'
 import GMaps from './GMaps'
-import { Col, Row, PageHeader, Checkbox, FormGroup, HelpBlock, Radio, ControlLabel, FormControl, Button } from 'react-bootstrap'
+import { Col, Row, PageHeader, FormGroup, HelpBlock, ControlLabel, FormControl, Button } from 'react-bootstrap'
 import Helmet from "react-helmet"
 
 function FieldGroup({ id, label, help, ...props }) {
@@ -34,7 +33,7 @@ const headerStyles = {
 
 export default class Contact extends Component {
   render() {
-    return 
+    return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
@@ -70,6 +69,6 @@ export default class Contact extends Component {
           </Row>
         </div>
       </div>
-    </div>;
+    </div>);
   }
 }

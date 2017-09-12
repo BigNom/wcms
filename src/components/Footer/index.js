@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import {
-  Col,  Nav, Navbar, NavItem, NavDropdown, MenuItem,
+  Col,  Nav, Navbar, NavItem, NavDropdown, MenuItem, ResponsiveEmbed,
   Grid,
   Row
 } from "react-bootstrap";
 
-import { Embed } from "rebass";
 
 import { LinkContainer } from "react-router-bootstrap";
 import logoSm from "./logoSm.svg";
+import fbLogoSm from '../../assets/fbLogoSm.png'
 
 const linkStyles = {
   color: "#6d6d6d"
@@ -36,11 +36,10 @@ export default class Footer extends Component {
         <Grid fluid>
           <Row>
             <Col xs={12} md={3}>
-              <Nav bsStyle="pills" stacked activeKey={1} onSelect={handleSelect}>
+              <Nav bsStyle="pills" stacked onSelect={handleSelect}>
                 <LinkContainer exact={true} to="/">
                   <img src={logoSm} alt="west coast meat solutions logo" />
                 </LinkContainer>
-
                 <LinkContainer to="/wholesale">
                   <NavItem eventKey={1}>Wholesale Market</NavItem>
                 </LinkContainer>
@@ -62,13 +61,15 @@ export default class Footer extends Component {
               </Nav>
             </Col>
             <Col xs={12} md={3}>
-              {" "}
-              Social Links
+            <a className="navbar-brand" href="https://www.facebook.com/wcmsolutions/">
+            <img src={fbLogoSm} alt="facebook link"/>
+            </a>
             </Col>
             <Col xs={12} md={3}>
-              <Embed>
-                <iframe width="350" height="300" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhdlWnH69MioRxgsAmZr370w&key=AIzaSyBuiiGlV57y-miH70QureBPQofKDE1WxHU" />
-              </Embed>
+
+            <div className="embed-responsive embed-responsive-16by9">
+            <iframe className="embed-responsive-item" width="350" height="auto" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhdlWnH69MioRxgsAmZr370w&key=AIzaSyBuiiGlV57y-miH70QureBPQofKDE1WxHU" alt="google map location"></iframe>
+          </div>
             </Col>
             <Col xs={12} md={3}>
               <address>

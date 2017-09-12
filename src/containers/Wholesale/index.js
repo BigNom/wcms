@@ -1,11 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Row, Col, PageHeader, Panel, Well } from 'react-bootstrap'
 import Helmet from "react-helmet";
 
-import ProductsList from './ProductsList'
 import FilteredList from './FilteredList'
-import SearchNavigation from './SearchNavigation'
-
 
 const products = require("./data.json");
 

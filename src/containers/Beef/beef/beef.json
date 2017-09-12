@@ -157,7 +157,7 @@
   },
   {
     "product": "beef",
-    "objectID": "3",
+    "objectID": "33",
     "category": "Young Prime",
     "meatCut": "Butt Fillet",
     "animalCut": "tenderloin",
@@ -212,7 +212,7 @@
   },
   {
     "product": "beef",
-    "objectID": "33",
+    "objectID": "331",
     "category": "Young Prime",
     "animalCut": "shortloin",
     "meatCut": "Whole Sirloin",

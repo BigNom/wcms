@@ -1,36 +1,13 @@
 import React, { Component } from 'react';
-import SlideShowContainer from '../../components/SlideShow/'
+import Helmet from "react-helmet";
 import { 
-  Well, Col, Row, PageHeader, Checkbox, FormGroup, HelpBlock, Thumbnail,
-   Radio, ControlLabel, FormControl, NavItem,
+  Well, Col, Row, Thumbnail, NavItem,
   Media } from 'react-bootstrap'
   import { LinkContainer } from "react-router-bootstrap";
 
-import { Box } from 'grid-styled';
-import styled from 'styled-components'
-import Helmet from "react-helmet"
-
-import {
-  HR
-} from '../../components/Global/Typography.js'
-
-import {
-  ContentWrapper,
-  HomeFlex
-} from '../../components/Global/Main'
-
-import Footer from '../../components/Footer/'
-//import Hero from '../../components/Hero/Hero'
-import ButtonGroup from '../../components/Buttons/ButtonGroup'
-import Nav from '../../components/Navbar/Nav'
-
-import {
-  HomeCard } from './Home.style.js'
 import msa from './msa-66.jpg'
 import haccp from './haccp-96x96.jpg'
-import beef from './beef-is-the-greatest.jpg'
 import halal from './halal.jpg'
-import Goat from './goats-350.jpg'
 
 const linkStyles = {
   color: "white"
@@ -52,6 +29,17 @@ const ulStyles = {
 class Home extends Component {
   render() {
     return <div className="container" style={homeStyles}>
+        <Helmet>
+ <meta charSet="utf-8" />
+         <title>
+            Wholesale Meat, Perth | Canning Vale Meat Markets | Cheap 
+            Meat, Perth | Quality Meat, Perth | Halal Certified | MSA 
+            Certified 
+          </title>
+        <link rel="canonical" href="https://wcm.solutions" />
+          <meta name="description" content="Looking for wholesale price restaurant quality meat. At West Coast Meat Solutions we are committed to providing affordable meat to Perth families. We are Halal and MSA Certified. Open Saturday Morning to the public" />
+      
+        </Helmet>
         <Row>
           <Col xs={12} md={9}>
             <Well>
@@ -65,9 +53,8 @@ class Home extends Component {
                 in the state. Our facility uses the latest state of the art
                 technology.
               </p>
-              <HR />
-              <p />
-              <HR />
+            </Well>
+            <Well>
               <h1>Perth Markets Wholesale Clearance</h1>
               <p>
                 West Coast Meat Solutions are open to the public on Saturday
@@ -80,7 +67,8 @@ class Home extends Component {
                 The gates open at 6:00 so make sure you get in early to beat
                 the rush.
               </p>
-              <HR />
+            </Well>
+            <Well>
               <h1>Buy Bulk Vacuum Packs</h1>
               <p>
                 Vacuum packing method involves placing items in a plastic
@@ -95,15 +83,9 @@ class Home extends Component {
                 begin to break down – known as the "ageing" process. Enjoy
                 the superb eating quality of aged beef.
               </p>
-              <HR />
-              <h1>Halal Certified</h1>
-              <p>
-                West Coast Meat Solutions is certified by the Western
-                Australian Halal Authority (WAHA). We are committed to
-                providing customers with truly genuine Halal meat at the
-                lowest prices in Perth.
-              </p>
-              <HR />
+            </Well>
+
+            <Well>
               <h1>We have Goat in stock</h1>
               <h2>For a limited time only we have Goat in stock. </h2>
               <p>
@@ -135,6 +117,15 @@ class Home extends Component {
                   <abbr title="Phone">P:</abbr> 9455 7962
                 </address>
               </div>
+            </Well>
+            <Well>
+              <h4>Halal Certified</h4>
+              <p>
+                West Coast Meat Solutions is certified by the Western
+                Australian Halal Authority (WAHA). We are committed to
+                providing customers with truly genuine Halal meat at the
+                lowest prices in Perth.
+              </p>
             </Well>
 
             <Well>
