@@ -27,7 +27,6 @@ class App extends Component {
   render() {
     return <Router>
         <div>
-
           <Grid fluid>
             <Hero />
             <Switch>
