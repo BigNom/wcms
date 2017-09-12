@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ContactForm from './ContactForm'
 import GMaps from './GMaps'
 import { Col, Row, PageHeader, Checkbox, FormGroup, HelpBlock, Radio, ControlLabel, FormControl, Button } from 'react-bootstrap'
+import Helmet from "react-helmet"
 
 function FieldGroup({ id, label, help, ...props }) {
   return (
@@ -33,7 +34,17 @@ const headerStyles = {
 
 export default class Contact extends Component {
   render() {
-    return <div style={contactStyles}>
+    return 
+    <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Contact Us | West Coast Meat Solutions
+        </title>
+        <link rel="canonical" href="https://wcm.solutions" />
+        <meta name="description" content="Contact page with email form, Location map" />
+      </Helmet>
+      <div style={contactStyles}>
         <div className="container">
           <div style={headerStyles} className="row">
             <div className="col">
@@ -58,6 +69,7 @@ export default class Contact extends Component {
             </Col>
           </Row>
         </div>
-      </div>;
+      </div>
+    </div>;
   }
 }

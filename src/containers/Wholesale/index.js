@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, PageHeader, Panel, Well } from 'react-bootstrap'
+import Helmet from "react-helmet";
 
 import ProductsList from './ProductsList'
 import FilteredList from './FilteredList'
@@ -12,6 +13,12 @@ export default class Wholesale extends React.Component{
 
   render() {
     return <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Wholesale Meat | Perth Wholesale Meat Markets</title>
+          <link rel="canonical" href="https://wcm.solutions" />
+          <meta name="description" content="Wholesale meat product guide" />
+        </Helmet>
         <Grid>
           <Row bsStyle="row-eq-height">
             <Col xs={12} md={9}>

@@ -4,7 +4,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-import Helmet from "react-helmet"
+
 import { Grid } from 'react-bootstrap'
 
 //import TransitionGroup from 'react-transition-group/TransitionGroup';
@@ -27,16 +27,7 @@ class App extends Component {
   render() {
     return <Router>
         <div>
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title>
-              Wholesale Meat, Perth | Canning Vale Meat Markets | Cheap
-              Meat, Perth | Quality Meat, Perth | Halal Certified | MSA
-              Certified
-            </title>
-            <link rel="canonical" href="https://wcm.solutions" />
-            <meta name="description" content="Looking for wholesale price restaurant quality meat. At West Coast Meat Solutions we are committed to providing affordable meat to Perth families. We are Halal and MSA Certified. Open Saturday Morning to the public" />
-          </Helmet>
+
           <Grid fluid>
             <Hero />
             <Switch>

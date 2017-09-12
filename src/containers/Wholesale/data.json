@@ -180,7 +180,7 @@
     "weight": "1-2",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "http://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502838190/wcms/beef/Beef_cheek.jpg",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502838190/wcms/beef/Beef_cheek.jpg",
     "description": "A less common cut of meat, the cheek is again best served slow cooked and moist to release the flavours and keep a moist consistency. Generally, a cheap cut of meat, if cooked with patience can serve smiles all round!"
   },
   {

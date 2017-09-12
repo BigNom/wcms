@@ -31,10 +31,10 @@ export default class Beef extends React.Component{
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Wholesale Beef, Perth | Cheap Beef, Perth | Halal Certified Beef, Perth | Side of Beef | Buy Bulk Beef | Quality Meat, Perth | West Coast Meat Solutions
+            Beef Cuts | Beef Wholesale Products
           </title>
           <link rel="canonical" href="https://wcm.solutions" />
-          <meta name="description" content="Wholesale Meat suppliers to Perth food service industries and supermarkets." />
+          <meta name="description" content="Beef cuts cost per kg." />
         </Helmet>
         <ContentWrapper>
           <PageHeader>
