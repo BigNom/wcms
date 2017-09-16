@@ -79,3 +79,5 @@ Disallow: /maps/api/js/QuotaService.RecordEvent
 
 ##Google Search Console
 
+## Favicon Generator
+https://www.favicon-generator.org/
