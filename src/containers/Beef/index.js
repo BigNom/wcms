@@ -23,7 +23,7 @@ export default class Beef extends React.Component{
     <Col xs={12} md={12}>
       <PageHeader>Beef Cuts</PageHeader>
       <Panel>
-       Locally sourced from Wa
+       All of our beef is sourced locally sourced from WA,
       </Panel>
       </Col>
       </Row>

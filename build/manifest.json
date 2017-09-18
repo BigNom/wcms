@@ -1,6 +1,13 @@
 {
- "name": "App",
- "icons": [
+  "name": "West Coast Meat Solutions",
+  "short_name": "WCMS",
+  "theme_color": "#003263",
+  "background_color": "#1A1A1A",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "gcm_sender_id": "103953800507",
+  "icons": [
   {
    "src": "\/android-icon-36x36.png",
    "sizes": "36x36",

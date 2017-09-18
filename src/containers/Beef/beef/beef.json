@@ -45,7 +45,7 @@
     "meatCut": "Boneless Shin",
     "price": "7.1",
     "cooking": "Slow Cook",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/Beef_shin_boneless_ofef8f",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/beef/Beef_shin_boneless_ofef8f.png",
     "description": "A cost-effective Beef portion, the Boneless Shin is taken from the front part of a cow’s lower leg. Much like other tough portions of Beef, slow-moist cooking methods are recommended to break the connective tissues and soften up this cut. Braising and stewing work well with the Boneless Shin cut. The Boneless Shin is extracted from the fore and hind parts of an animal’s legs."
   },
   {
@@ -141,7 +141,7 @@
     "weight": "2.5",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale/v1502851184/wcms/Beef_rump_whole_azl2z6",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale/v1502851184/wcms/beef/Beef_rump_whole_azl2z6",
     "description": "Another well-known cut of beef, the rump is generally a slightly cheaper cut than its neighbour the sirloin due to not being quite as tender. Can be used for roasts or cutting into steaks. Many consider the rump to contain more flavour than the sirloin. It is a great full flavoured piece of beef."
   },
   {
@@ -174,7 +174,7 @@
     "animalCut": "tenderloin",
     "price": "19.5",
     "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502840844/wcms/Beef_tenderloin_whole_fmu56b.jpg",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502840844/wcms/beef/Beef_tenderloin_whole_fmu56b.jpg",
     "description": "Beef tenderloin is the most expensive cut of meat on the steer. But, there are ways to minimize that cost. The best way is to buy the tenderloin whole and untrimmed, bring it home, and trim it yourself. With little or no fat or connective tissue the fillet is best suited to portioning into steaks for pan-frying and barbecuing or strips for stir-frying, but is equally delicious roasted whole in a very hot oven."
   },
   {
@@ -185,7 +185,7 @@
     "meatCut": "Flank Steak",
     "price": "11",
     "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/Beef_flank_whole_joltzu",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/beef/Beef_flank_whole_joltzu",
     "description": "The flank steak is a beef steak cut from the abdominal muscles or lower chest of the cow. The flank is located directly beneath the loin in the abdominal area. long and flat, it has a coarse grain running along its length which adds another dimension to its appeal and application. Flank steak also performs extremely well under slow-cooking conditions."
   },
   {
@@ -196,7 +196,7 @@
     "meatCut": "Thick Skirt",
     "price": "7.5",
     "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/Beef_inside_skirt_vatlfv",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/beef/Beef_inside_skirt_vatlfv",
     "description": "Thick Skirt also known as Hanger Steak or Onlae, is renowned for its incredible intense flavour rather than its tenderness. The steak is covered with a tough membrane which should be removed before cooking. After slow-cooking this beef cut can be shredded with a fork and added to burritos or salads."
   },
   {
@@ -220,7 +220,7 @@
     "weight": "1.5",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502840976/wcms/Beef_shortloin_whole_lxrpbn",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502840976/wcms/beef/Beef_shortloin_whole_lxrpbn",
     "description": "The Sirloin comes from the hindquarter of the carcase and is separated from the rump by a straight cut between the last vertebrae along the back and the hip bone. The tenderloin and Striploin muscles sit on opposite sides of the t-shaped bone to form the basic cut to come from the Sirloin- the T-bone steak."
   },
   {
@@ -279,7 +279,7 @@
     "meatCut": "Short Ribs",
     "price": "6.8",
     "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/Beef_short_ribs",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/beef/Beef_short_ribs",
     "description": "Short ribs are a cut of beef taken from the brisket, chuck, plate, or rib areas of beef cattle. They consist of a short portion of the rib bone, which is overlain by meat which varies in thickness. Short ribs taste great when they are slow cooked in red wine and stock."
   },
   {
@@ -335,7 +335,7 @@
     "meatCut": "Chuck Whole",
     "price": "7.99",
     "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502838210/wcms/Beef_chuck_whole",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502838210/wcms/beef/Beef_chuck_whole",
     "description": "Beef chuck is a huge primal cut that comes mainly from the shoulder section of the steer, as well as parts of the neck, ribs, and the upper arm. The entire thing can weigh more than 100 pounds, and it makes up fully 30 percent of an entire side of beef. These tough muscles are themselves held together at all sorts of funny angles by numerous bits of sinew and connective tissue, which are also tough and chewy, especially when cooked improperly."
   },
   {
@@ -359,7 +359,7 @@
     "weight": "2-3",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502838206/wcms/Beef_chuck_ribs",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502838206/wcms/beef/Beef_chuck_ribs",
     "description": "Short ribs are cut from the Chuck and the Plate (top of the rib bones) and beef back ribs are what is remaining after the rib roast is boned out. Short Ribs are cut parallel to the bone and may also be sold boneless. This meat is rich in flavour."
   },
   {
@@ -370,7 +370,7 @@
     "meatCut": "Point End Brisket Deckle removed",
     "price": "7.99",
     "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/Beef_point_end_brisket_jq6ack",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/beef/Beef_point_end_brisket_jq6ack",
     "description": "The point is a lump of meat that partially overlaps one end of the flat. Avoid small, super-trimmed brisket flats with the point removed. The point end brisket is essentially the pectoral muscles from the chest/ brisket area between the front legs. Being a well exercised muscle, the point end has a high degree of connective tissue and is best suited to slow wet cooking methods such as braising and casseroling. This beef cut is perfect for shredding as it literally pulls apart when cooked."
   },
   {
@@ -427,7 +427,7 @@
     "meatCut": "Ox Tail",
     "price": "8.2",
     "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/Beef_ox_tail_sliced_dughao",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502851184/wcms/beef/Beef_ox_tail_sliced_dughao",
     "description": "Oxtail is the culinary name for the tail of cattle. Formerly, it referred only to the tail of an ox or steer, a bullock (a castrated male). Oxtail is a bony, gelatine-rich meat, which is usually slow-cooked as a stew or braised. It is a traditional stock base for a soup."
   },
   {

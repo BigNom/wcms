@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
 import {
-  Col,  Nav, Navbar, NavItem, NavDropdown, MenuItem, ResponsiveEmbed,
-  Grid,
-  Row
+  Col,  Nav, NavItem, Grid, Row
 } from "react-bootstrap";
 
 
@@ -61,6 +58,7 @@ export default class Footer extends Component {
               </Nav>
             </Col>
             <Col xs={12} md={3}>
+            <h5 className="text-center">Follow Us</h5>
             <a className="navbar-brand" href="https://www.facebook.com/wcmsolutions/">
             <img src={fbLogoSm} alt="facebook link"/>
             </a>
@@ -78,7 +76,8 @@ export default class Footer extends Component {
                 West Wing 4 Market City,<br />
                 280 Bannister Road,<br />
                 Canning Vale WA 6155<br />
-                <abbr title="Phone" /> 9455 7962
+                <abbr title="Phone" /> 9455 7962<br />
+                sales@wmcsolutions.com.au
               </address>
             </Col>
           </Row>
@@ -102,7 +101,7 @@ export default class Footer extends Component {
           <footer className="footer text-center">
             <div className="container">
               <p className="footer-text">
-                Copyright 2017 BookShop. Reserved Rights
+                Copyright 2017 West Coast Meat Solutions. Reserved Rights
               </p>
             </div>
           </footer>

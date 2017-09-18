@@ -5,7 +5,8 @@ import logoSm from './logoSm.svg'
 import './Navigation.css'
 
 const linkStyles = {
-  color: "white"
+  color: "white",
+  textAlign: "center"
 }
 
 class Navigation extends Component {
@@ -23,23 +24,33 @@ class Navigation extends Component {
               <NavItem eventKey={1}>Wholesale Market</NavItem>
             </LinkContainer>
             <LinkContainer to="/beef">
-              <NavItem style={linkStyles} eventKey={2} href="#">
+              <NavItem style={linkStyles} eventKey={2}>
                 Beef
               </NavItem>
             </LinkContainer>
             <LinkContainer to="/lamb">
-              <NavItem eventKey={3} href="#">
+              <NavItem eventKey={3}>
                 Lamb
               </NavItem>
             </LinkContainer>
+            <LinkContainer to="/halal">
+              <NavItem eventKey={5}>
+                Halal Meat
+              </NavItem>
+            </LinkContainer>
+            <LinkContainer to="/about">
+              <NavItem eventKey={4}>
+                About Us
+              </NavItem>
+            </LinkContainer>
             <LinkContainer to="/contact">
-              <NavItem eventKey={4} href="#">
+              <NavItem eventKey={6}>
                 Contact Us
               </NavItem>
             </LinkContainer>
           </Nav>
           <Nav pullRight>
-            <NavItem eventKey={5} href="#">
+            <NavItem eventKey={7}>
               9455 7962
             </NavItem>
           </Nav>

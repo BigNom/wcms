@@ -25,6 +25,8 @@ export default class Wholesale extends React.Component{
                 the Wholesale Clearance Sale. The gates open at 6:00am and
                 there is a surcharge of $4 for vehicles. The money is
                 collected by the Rotary Club of Willetton on entry.
+                <br />
+                
               </Panel>
             </Col>
             <Col xs={12} md={3}>

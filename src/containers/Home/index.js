@@ -5,9 +5,11 @@ import {
   Media } from 'react-bootstrap'
   import { LinkContainer } from "react-router-bootstrap";
 
+
 import msa from './msa-66.jpg'
 import haccp from './haccp-96x96.jpg'
 import halal from './halal.jpg'
+
 
 const linkStyles = {
   color: "white"
@@ -30,20 +32,18 @@ class Home extends Component {
   render() {
     return <div className="container" style={homeStyles}>
         <Helmet>
- <meta charSet="utf-8" />
-         <title>
-            Wholesale Meat, Perth | Canning Vale Meat Markets | Cheap 
-            Meat, Perth | Quality Meat, Perth | Halal Certified | MSA 
-            Certified 
+          <meta charSet="utf-8" />
+          <title>
+            Wholesale Meat, Perth | Canning Vale Meat Markets | Cheap Meat,
+            Perth | Quality Meat, Perth | Halal Certified | MSA Certified
           </title>
-        <link rel="canonical" href="https://wcm.solutions" />
+          <link rel="canonical" href="https://wcm.solutions" />
           <meta name="description" content="Looking for wholesale price restaurant quality meat. At West Coast Meat Solutions we are committed to providing affordable meat to Perth families. We are Halal and MSA Certified. Open Saturday Morning to the public" />
-      
         </Helmet>
         <Row>
           <Col xs={12} md={9}>
             <Well>
-              <h1>Wholesale</h1>
+              <h1>West Coast Meat Solutions, wholesale meat outlet</h1>
               <p>
                 West Coast Meat Solutions supply an extensive range of
                 premium meat to supermarkets, butchers, restaurants and food
