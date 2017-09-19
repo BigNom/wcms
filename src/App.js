@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
-  Route,
-  Switch
 } from 'react-router-dom'
 
 import { Grid } from 'react-bootstrap'
-
-//import TransitionGroup from 'react-transition-group/TransitionGroup';
-
-import { app, base } from './base'
 
 import Routes from './Routes'
 import Hero from './components/Hero/Hero'

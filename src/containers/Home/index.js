@@ -5,18 +5,12 @@ import {
   Media } from 'react-bootstrap'
   import { LinkContainer } from "react-router-bootstrap";
 
-
 import msa from './msa-66.jpg'
 import haccp from './haccp-96x96.jpg'
 import halal from './halal.jpg'
 
-
 const linkStyles = {
   color: "white"
-};
-
-const homeStyles = {
-  margin: "40px auto"
 };
 
 const headerStyles = {
@@ -27,6 +21,10 @@ const ulStyles = {
   listStyleType: "none",
   padding: "0"
 }
+const homeStyles = {
+  margin: "40px auto"
+};
+
 
 class Home extends Component {
   render() {
@@ -37,7 +35,7 @@ class Home extends Component {
             Wholesale Meat, Perth | Canning Vale Meat Markets | Cheap Meat,
             Perth | Quality Meat, Perth | Halal Certified | MSA Certified
           </title>
-          <link rel="canonical" href="https://wcm.solutions" />
+          <link rel="canonical" href="https://www.wcm.solutions" />
           <meta name="description" content="Looking for wholesale price restaurant quality meat. At West Coast Meat Solutions we are committed to providing affordable meat to Perth families. We are Halal and MSA Certified. Open Saturday Morning to the public" />
         </Helmet>
         <Row>
@@ -113,8 +111,8 @@ class Home extends Component {
                   <br />
                   West Wing 4 Market City,<br />
                   280 Bannister Road,<br />
-                  Canning Vale WA 6155
-                  <abbr title="Phone">P:</abbr> 9455 7962
+                  Canning Vale WA 6155<br />
+                  <abbr title="Phone"></abbr> 9455 7962
                 </address>
               </div>
             </Well>
@@ -134,15 +132,15 @@ class Home extends Component {
                   <Media>
                     <Media.Left>
                       <img width={64} height={64} src={msa} alt="haccp logo" />
-                      <a href="https://www.mla.com.au/marketing-beef-and-lamb/meat-standards-australia/" target="_blank" />
+                      <a href="https://www.mla.com.au/marketing-beef-and-lamb/meat-standards-australia/" />
                     </Media.Left>
                     <Media.Left>
                       <img width={64} height={64} src={halal} alt="haccp logo" />
-                      <a href="https://www.haccp.com.au/" target="_blank" />
+                      <a href="https://www.haccp.com.au/" />
                     </Media.Left>
                     <Media.Left>
                       <img width={64} height={64} src={haccp} alt="haccp logo" />
-                      <a href="https://www.haccp.com.au/" target="_blank" />
+                      <a href="https://www.haccp.com.au/" />
                     </Media.Left>
                   </Media>
                 </Media.ListItem>

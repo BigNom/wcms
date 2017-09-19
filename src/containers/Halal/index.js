@@ -1,27 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import Helmet from "react-helmet";
-import { Well, Col, Row, Thumbnail, NavItem, Media } from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
+import { Well, Col, Row, Media } from "react-bootstrap";
 
 import halal from '../Home/halal.jpg'
-
-const linkStyles = {
-  color: "white"
-};
-
-const homeStyles = {
-  margin: "40px auto"
-};
-
-const headerStyles = {
-  margin: "20px auto",
-  textAlign: "center"
-};
-const ulStyles = {
-  listStyleType: "none",
-  padding: "0"
-};
-
 
 export default class Halal extends React.Component{
   render() {
@@ -55,7 +36,7 @@ export default class Halal extends React.Component{
                
                     <Media.Left>
                       <img width={64} height={64} src={halal} alt="halal certification logo" />
-                      <a href="https://www.haccp.com.au/" target="_blank" />
+                      <a href="https://www.haccp.com.au/" />
                     </Media.Left>
 
                   </Media>

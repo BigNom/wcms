@@ -2,23 +2,6 @@ import React from "react";
 import Helmet from "react-helmet";
 import { Well, Col, Row } from "react-bootstrap";
 
-const linkStyles = {
-  color: "white"
-};
-
-const homeStyles = {
-  margin: "40px auto"
-};
-
-const headerStyles = {
-  margin: "20px auto",
-  textAlign: "center"
-};
-const ulStyles = {
-  listStyleType: "none",
-  padding: "0"
-};
-
 
 export default class About extends React.Component{
   render() {

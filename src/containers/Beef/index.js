@@ -13,10 +13,11 @@ export default class Beef extends React.Component{
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Beef Cuts | Beef Wholesale Products
-          </title>
-          <link rel="canonical" href="https://wcm.solutions" />
-          <meta name="description" content="Beef cuts cost per kg." />
+          Wholesale Meat, Perth | Canning Vale Meat Markets | Cheap Meat,
+          Perth | Quality Meat, Perth | Halal Certified | MSA Certified
+        </title>
+          <link rel="canonical" href="https://wcm.solutions/beef" />
+          <meta name="description" content="Perth's premium Wholesale Beef supplier is open to the public every Saturday from 6-10am." />
         </Helmet>
         <Grid>
   <Row bsStyle="row-eq-height">
