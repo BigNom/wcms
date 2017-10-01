@@ -3,7 +3,7 @@ import { Thumbnail, Image, Col } from "react-bootstrap";
 
 const thumbStyles = {
   float: "left",
-  width: "320px",
+  width: "300px",
   margin: "10px",
   padding: "10px 24px",
   flex: "1"

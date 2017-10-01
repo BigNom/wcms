@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Nav, Navbar, NavItem } from "react-bootstrap";
 import { LinkContainer } from 'react-router-bootstrap'
 import logoSm from './logoSm.svg'
-import './Navigation.css'
+//import './Navigation.css'
 
 const linkStyles = {
   color: "white",
@@ -11,7 +11,7 @@ const linkStyles = {
 
 class Navigation extends Component {
   render() {
-    return <Navbar collapseOnSelect fluid>
+    return <Navbar collapseOnSelect fluid className="navbar-inverse">
         <Navbar.Header>
           <LinkContainer exact={true} to="/">
             <img src={logoSm} alt="west coast meat solutions logo" />
@@ -31,11 +31,6 @@ class Navigation extends Component {
             <LinkContainer to="/lamb">
               <NavItem eventKey={3}>
                 Lamb
-              </NavItem>
-            </LinkContainer>
-            <LinkContainer to="/halal">
-              <NavItem eventKey={5}>
-                Halal Meat
               </NavItem>
             </LinkContainer>
             <LinkContainer to="/about">

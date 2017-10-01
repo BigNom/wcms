@@ -1,0 +1,5 @@
+.header {
+  background: linear-gradient(#009fe1, #3acec2),
+  url('headerLarge.jpg') no-repeat;
+  background-blend-mode: multiply;
+}

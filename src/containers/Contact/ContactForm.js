@@ -1,58 +1,58 @@
 import React, { Component } from 'react';
-import styled from 'styled-components'
 
-const Form = styled.form`
-width: 200px;
-`
+const encode = (data) => {
+  return Object.keys(data)
+  .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+  .join("&");
+}
+class ContactForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: "", email: "", message: "" };
+  }
 
-class ContactForm extends Component {
-  state = {
-    firstName: "",
-    lastName: "",
-    email: ""
-  };
+  /* Here’s the juicy bit for posting the form submission */
 
-  change = (e) => {
-    this.setState({
-      [e.target.name] : e.target.value
-    });
-  };
-
-  onSubmit = (e) => {
+  handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
     e.preventDefault();
-    this.props.onSubmit(this.state)
-    this.setState({
-      firstName: "",
-      lastName: "",
-      email: ""
-    });
   };
+
+  handleChange = e => this.setState({ [e.target.name] : e.target.value });
 
   render() {
+    const { name, email, message } = this.state;
     return (
-      <Form>
-        <input 
-        name="firstName"
-        placeholder="First Name" 
-        value={this.state.firstName} 
-        onChange={e => this.change(e)} />
-        <br />
-        <input
-          name="lastName"
-          placeholder="Last Name"
-          value={this.state.lastName}
-          onChange={e => this.change(e)} />
-          <br />
-        <input
-          name="email"
-          placeholder="Email"
-          value={this.state.email}
-          onChange={e => this.change(e)} />
-          <br />
-          <button onClick={e => this.onSubmit(e)}>Submit</button>
-    </Form> 
+      <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={this.handleSubmit}>
+      <input type="hidden" name="form-name" value="contact" />
+        <p>
+          <label>
+            Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+          </label>
+        </p>
+        <p>
+          <label>
+            Message: <textarea name="message" value={message} onChange={this.handleChange} />
+          </label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
     );
   }
 }
+
 
 export default ContactForm;

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import GMaps from './GMaps'
 import { Col, Row, PageHeader, FormGroup, HelpBlock, ControlLabel, FormControl, Button } from 'react-bootstrap'
 import Helmet from "react-helmet"
+import ContactForm from './ContactForm'
 
 function FieldGroup({ id, label, help, ...props }) {
   return (
@@ -51,17 +52,9 @@ export default class Contact extends Component {
             </div>
           </div>
           <Row>
+          
             <Col xs={12} md={6}>
-              <form>
-                <FieldGroup id="formControlsEmail" type="email" label="Email address" placeholder="Enter email" />
-                <FormGroup controlId="formControlsTextarea">
-                  <ControlLabel>Textarea</ControlLabel>
-                  <FormControl componentClass="textarea" placeholder="textarea" />
-                </FormGroup>
-                <Button bsStyle="primary" bsSize="large" type="submit">
-                  Submit
-                </Button>
-              </form>
+            <ContactForm />
             </Col>
             <Col xs={12} md={6}>
               <GMaps />

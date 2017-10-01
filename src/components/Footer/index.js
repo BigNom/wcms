@@ -3,7 +3,6 @@ import {
   Col,  Nav, NavItem, Grid, Row
 } from "react-bootstrap";
 
-
 import { LinkContainer } from "react-router-bootstrap";
 import logoSm from "./logoSm.svg";
 import fbLogoSm from '../../assets/fbLogoSm.png'
@@ -25,7 +24,6 @@ const sitemapStyles = {
 function handleSelect(selectedKey) {
 
 }
-
 
 export default class Footer extends Component {
   render() {

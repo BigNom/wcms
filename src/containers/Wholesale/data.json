@@ -9,7 +9,7 @@
     "weight": "2",
     "markets": "true",
     "cooking": "Slow Cook",
-    "picture": "./images/beef/osso-bucco.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506167688/osso-bucco_a1tgyl.png",
     "description": "Osso buco is a Milanese speciality of cross-cut veal shanks braised with vegetables, white wine and broth. It is often garnished with gremolata. The tissue breaks down when prepared using slow moist cooking methods such as casseroling and braising imparting a rich, full bodied flavour and a delicious gelatinous texture."
   },
   {
@@ -22,7 +22,7 @@
     "weight": "1.5",
     "markets": "true",
     "cooking": "Slow Cook",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "Classic slow cooking meat when combined with its ideal partner, cow heel, it will certainly stick to your ribs in the cold weather.  The shin breaks down to provide tasty meat and a thick gravy, beautifully tender."
   },
   {
@@ -87,7 +87,7 @@
     "weight": "1.5",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "https://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502840976/wcms/Beef_shortloin_whole_lxrpbn",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/w_150,c_scale,f_auto/v1502840976/wcms/beef/Beef_shortloin_whole_lxrpbn.jpg",
     "description": "The Sirloin comes from the hindquarter of the carcase and is separated from the rump by a straight cut between the last vertebrae along the back and the hip bone. The tenderloin and Striploin muscles sit on opposite sides of the t-shaped bone to form the basic cut to come from the Sirloin- the T-bone steak."
   },
   {

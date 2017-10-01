@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Thumb from "./Thumb";
 import ProductsList from "./ProductsList";
 
 class FilteredList extends React.Component {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Row, Col, PageHeader, Panel, Well } from 'react-bootstrap'
+import { Form, FormGroup, FormControl, ControlLabel, Button } from 'react-bootstrap'
 import Helmet from "react-helmet";
 
 import FilteredList from './FilteredList'
@@ -14,7 +15,7 @@ export default class Wholesale extends React.Component{
           <meta charSet="utf-8" />
           <title>Wholesale Meat | Perth Wholesale Meat Markets</title>
           <link rel="canonical" href="https://wcm.solutions" />
-          <meta name="description" content="Wholesale meat product guide" />
+          <meta name="description" content="Perth Wholesale Meat Market, Wholesale beef, lamb, goat and poultry" />
         </Helmet>
         <Grid>
           <Row bsStyle="row-eq-height">

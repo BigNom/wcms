@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Thumb from './Thumb'
 import Product from './Product'
 import { Form, FormControl, FormGroup, Navbar } from 'react-bootstrap'
 
