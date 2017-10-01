@@ -4,16 +4,6 @@ import { Col, Row, PageHeader, FormGroup, HelpBlock, ControlLabel, FormControl, 
 import Helmet from "react-helmet"
 import ContactForm from './ContactForm'
 
-function FieldGroup({ id, label, help, ...props }) {
-  return (
-    <FormGroup controlId={id}>
-      <ControlLabel>{label}</ControlLabel>
-      <FormControl {...props} />
-      {help && <HelpBlock>{help}</HelpBlock>}
-    </FormGroup>
-  );
-}
-
 const loginStyles = {
   width: "90%",
   maxWidth: "315px",
@@ -54,6 +44,14 @@ export default class Contact extends Component {
           <Row>
           
             <Col xs={12} md={6}>
+            <div>
+            <p>We are located at West Wing 4 Market City, 280 Bannister Road, <br />
+            Canning Vale WA 6155</p>
+            <p>9455 7962</p>
+            <a href="sales@wcmsolutions.com.au"><p>sales@wmcsolutions.com.au</p></a>
+          </div>
+          <br />
+          <p>If you would like to make an inquiry please fill out the form below and we will respond to you within 24 hrs</p>
             <ContactForm />
             </Col>
             <Col xs={12} md={6}>

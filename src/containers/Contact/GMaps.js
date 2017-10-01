@@ -1,25 +1,37 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react'
+import logo from '../../assets/mapLogo.png'
 
 const API_KEY = 'AIzaSyB-Xxfzj2t44NyJtgnMQaam9-tw7wRxbsw';
 
-const AnyReactComponent = ({ text }) => (
+const LogoComponent = ({ text, picture }) => (
   <div style={{
-    position: 'relative', color: 'white', background: 'blue',
-    height: 20, width: 20, top: -200, left: 200,
+    position: 'relative', 
+    color: 'white', 
+    borderRadius: 40,
+    textAlign: 'center',
+    color: 'white',
+    fontSize: 12,
+    fontWeight: 'bold',
+    padding: '4',
+    height: 20, 
+    width: 20, 
+    top: -200, 
+    left: 200,
   }}>
-    {text}
+    <img src={picture} />
   </div>
 );
 
 class GMaps extends React.Component {
   static defaultProps = {
-    center: {lat: -32.073037, lng: 115.896297},
+    center: {lat: -32.073820, lng: 115.898600},
     zoom: 17,
   };
 
   render() {
     return (
+
       <div>
         <GoogleMapReact
         bootstrapURLKeys={{
@@ -31,9 +43,11 @@ class GMaps extends React.Component {
           defaultZoom={this.props.zoom}
           
         />
-        <AnyReactComponent
-          lat= {-32.073037}
-          lng= {115.896297}
+        <LogoComponent
+        text={'WCMS'}
+        picture={logo}
+          lat= {-32.073820}
+          lng= {115.898600}
           />
       </div>
     )

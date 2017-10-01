@@ -35,7 +35,7 @@
     "weight": "1.5",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/beef/eyeround.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506167687/eyeround_q3mbm0.png",
     "description": "Eye round is one of the muscles that make up silverside, a cut that sits on the outside thigh of the hind leg. It is a lean piece of beef that is best suited to cutting into a dice for slow, moist cooking methods such as a braise or casserole."
   },
   {
@@ -48,7 +48,7 @@
     "weight": "2",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/beef/silverside.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506167689/silverside_bbnzfz.png",
     "description": "The silverside comes from the outside of the rear leg and sits between the knuckle and the topside Being a muscle heavily used for walking, the silverside requires the gentle moist cooking of corning to produce a tender and delicious beef dish."
   },
   {
@@ -61,7 +61,7 @@
     "weight": "4.5",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/beef/topside.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506167689/topside_yn81yp.png",
     "description": "Topside comes from the inside of the hind leg, between the thick flank and the silverside. Topside is extremely lean and performs best when diced for slow-cooking in a hearty casserole or braise."
   },
   {
@@ -74,7 +74,7 @@
     "weight": "N/A",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/beef/rump-steak.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506167689/rump-steak_u7xgjm.png",
     "description": "A beef round rump cut, whether it is boneless or bone-in, is a flavourful meat, but it needs some care to prevent toughness when cooking. This cut of meat is usually wet-roasted or braised to prevent the meat drying out. However, the rump can also be sliced into steaks and pan-fried."
   },
   {
@@ -100,7 +100,7 @@
     "weight": "2",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/cube-roll.jpg",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506167686/cube-roll_j6soz1.png",
     "description": "Cube roll is a cut of beef, usually top round or top sirloin, tenderized and flattened by pounding with a meat tenderizer or use of an electric tenderizer. The name refers to the shape of the indentations left by that process. Given its tender nature it can also be sliced into steaks to barbecue and pan-fry or strips to stir-fry."
   },
   {
@@ -113,7 +113,7 @@
     "weight": "2",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "Beef Fingers usually consist of 2–3 long by 1/2 wide strips of steak (usually top sirloin), battered with a tempura-like or flour batter, and deep-fried in oil. Typically, they are served with French fries and a buttered piece of thick toast."
   },
   
@@ -128,7 +128,7 @@
     "weight": "1.5",
     "saving": "2.00",
     "cooking": "Roast",
-    "picture": "./images/oysterblade-whole.jpg",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506167688/oyster-blade_y2uzmz.png",
     "description": "Flat iron steak, butlers' steak, or oyster blade steak is a cut of steak cut with the grain from the shoulder of the animal. This produces a flavourful cut that is a bit tough because it contains a gristly fascia membrane unless removed."
   },
   {
@@ -141,7 +141,7 @@
     "price": "8.99",
     "weight": "2-3",
     "cooking": "Roast",
-    "picture": "./images/beef/chuck.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "Being one of the neck muscles used to support the head, chuck contains a great deal of connective tissue and therefore suits moist slow-cooking techniques that break down the connective tissue. It is best for curries and stews with great full flavour and a fantastic gelatinous texture."
   },
   {
@@ -167,7 +167,7 @@
     "weight": "",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "It's deliciously rich and creamy, like meat-flavoured butter. You can use marrow bones to make bone broth, or you can roast the bones and use the marrow the same way you would use butter -- spread it on toast, cook eggs or roast vegetables with it, or let it melt over your steak while it's resting."
   },
   {
@@ -193,7 +193,7 @@
     "weight": "",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "When it comes to calories and protein, beef heart is about equal to white-meat chicken. Beef heart meat is the muscle that's been trimmed from the heart wall. “Beef heart” includes the meat and essentially everything else—the blood vessels, fat, and blood chambers."
   },
   {
@@ -206,7 +206,7 @@
     "weight": "",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "The kidneys of beef cattle, known as ox kidney inevitably tend towards toughness but when cooked slowly until tender. Beef kidneys are simple to prepare for cooking, typically they are cut into bite size pieces to make the most beautiful stew or a classic Steak and Kidney Pie. Cooking tip: Season and fry the beef kidney with onions & garlic - all this flavours are enhanced by each other."
   },
   {
@@ -219,7 +219,7 @@
     "weight": "",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "Beef tendons only take four hours of cooking time to soften as opposed to ten. The peripheral parts of the tendon carry bits of flesh and fat as well. Beef tendon also possesses its own unique taste. Beef tendon is truly beefy on its own; enhanced with additional seasonings, the tendon has a meaty depth that belies the lack of muscle content."
   },
   {
@@ -232,7 +232,7 @@
     "weight": "",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "Beef tongue or neat's tongue is a dish made of the tongue of a cow. Beef tongue is very high in fat, and 72% of its calories come from fat. It is very cheap and relatively easy to prepare. It’s sometimes even tastier than beef!"
   },
   {
@@ -244,7 +244,7 @@
     "weight": "1",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "Corned SilverSide beef is a salt-cured beef product. The term comes from the treatment of the meat with large grained rock salt, also called 'corns' of salt. Most recipes include nitrates or nitrites, which gives the beef a pinkish colour."
   },
   {
@@ -257,7 +257,7 @@
     "weight": "1",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "Usually trimmed from beef parts such as the heart or cheek, this is perfect for your pet. Dogs enjoy this food and it is also healthy for pets as it is filled with less fattier substances and also cheap at the same time."
   },
   {
@@ -270,7 +270,7 @@
     "weight": "2",
     "markets": "true",
     "cooking": "Roast",
-    "picture": "./images/wcms-placeholder.png",
+    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "Our beef sausages are slow-cooked with natural spices using quality cuts of meat."
   },
   {
