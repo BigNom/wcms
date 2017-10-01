@@ -83,7 +83,8 @@
       "/about",
       "/sitemap",
       "/privacy-policy",
-      "/members"
+      "/members",
+      "thankyou"
     ],
     "snapshotDelay": 300
   }
