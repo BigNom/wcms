@@ -39,17 +39,17 @@ export default class Footer extends Component {
                   <NavItem eventKey={1}>Wholesale Market</NavItem>
                 </LinkContainer>
                 <LinkContainer to="/beef">
-                  <NavItem style={linkStyles} eventKey={2} href="#">
+                  <NavItem style={linkStyles} eventKey={2}>
                     Beef
                   </NavItem>
                 </LinkContainer>
                 <LinkContainer to="/lamb">
-                  <NavItem eventKey={3} href="#">
+                  <NavItem eventKey={3}>
                     Lamb
                   </NavItem>
                 </LinkContainer>
                 <LinkContainer to="/contact">
-                  <NavItem eventKey={4} href="#">
+                  <NavItem eventKey={4}>
                     Contact Us
                   </NavItem>
                 </LinkContainer>

@@ -13,7 +13,7 @@ const LogoComponent = ({ text, picture }) => (
     color: 'white',
     fontSize: 12,
     fontWeight: 'bold',
-    padding: '4',
+    padding: 4,
     height: 20, 
     width: 20, 
     top: -200, 
