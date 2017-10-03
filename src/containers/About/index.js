@@ -11,6 +11,7 @@ export default class About extends React.Component{
           <title>
             About West Coast meat Solutions
           </title>
+          <link rel="canonical" href="https://wcm.solutions/about" />
           <meta name="description" content="At West Coast Meat Solutions " />
         </Helmet>
         <Row>

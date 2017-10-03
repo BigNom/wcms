@@ -2,7 +2,6 @@ import React from 'react';
 import { Grid, Row, Col, PageHeader, Panel, Well } from 'react-bootstrap'
 import { Form, FormGroup, FormControl, ControlLabel, Button } from 'react-bootstrap'
 import Helmet from "react-helmet";
-
 import FilteredList from './FilteredList'
 
 const products = require("./data.json");
@@ -13,8 +12,8 @@ export default class Wholesale extends React.Component{
     return <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Wholesale Meat | Perth Wholesale Meat Markets</title>
-          <link rel="canonical" href="https://wcm.solutions" />
+          <title>Wholesale Meat | Perth Wholesale Meat Markets | Wholesale Lamb | Wholesale Beef</title>
+          <link rel="canonical" href="https://wcm.solutions/wholesale" />
           <meta name="description" content="Perth Wholesale Meat Market, Wholesale beef, lamb, goat and poultry" />
         </Helmet>
         <Grid>

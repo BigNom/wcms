@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap'
 
 const encode = (data) => {
   return Object.keys(data)
@@ -17,7 +18,7 @@ class ContactForm extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state })
     })
-      .then(() => alert("Thankyou for sending a message"))
+      .then(() => alert("Thankyou for sending a message, we will be in touch shortly"))
       .catch(error => alert(error));
     e.preventDefault();
     this.setState({
@@ -41,45 +42,54 @@ class ContactForm extends React.Component {
       method="post" 
       data-netlify="true" 
       data-netlify-honeypot="bot-field" 
-      onSubmit={e => this.handleSubmit(e)}>
+      onSubmit={e => this.handleSubmit(e)}> 
       <input 
       type="hidden" 
       name="form-name" 
       value="contact" 
       />
-        <p>
-          <label>
-            Your Name: 
+
+      <div className="form-group">
+          <label for="nameInput">
+            First Name
             <input 
+            className="form-control"
+            id="nameInput"
+            placeholder="Name"
             type="text" 
             name="name" 
             value={name} 
             onChange={e => this.handleChange(e)} />
           </label>
-        </p>
-        <p>
-          <label>
-            Your Email: 
+          </div>
+
+        <div className="form-group">
+          <label for="emailInput">
+            Email
             <input 
+            className="form-control"
+            id="emailInput"
+            placeholder="Email"
             type="email" 
             name="email" 
             value={email} 
             onChange={e => this.handleChange(e)} 
             />
           </label>
-        </p>
-        <p>
-          <label>
-            Message: 
-            <textarea 
+        </div>
+        <div className="form-group">
+          <label form="messageLabel">
+            Message 
+            <textarea className="form-control" rows="3"
             name="message" 
             value={message} 
             onChange={e => this.handleChange(e)} />
           </label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
+        </div>
+          <Button bsStyle="primary" type="submit">Send</Button>
+
+
+
       </form>
     );
   }

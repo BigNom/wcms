@@ -12,6 +12,7 @@ export default class Thankyou extends React.Component{
             Thankyou Page
           </title>
           <meta name="description" content="Thankyou page West Coast Meat Solutions " />
+          <link rel="canonical" href="https://wcm.solutions/thankyou" />
         </Helmet>
         <Row>
           <Col xs={12} md={12}>

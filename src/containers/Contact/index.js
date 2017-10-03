@@ -31,7 +31,7 @@ export default class Contact extends Component {
         <title>
           Contact Us | West Coast Meat Solutions
         </title>
-        <link rel="canonical" href="https://wcm.solutions" />
+        <link rel="canonical" href="https://wcm.solutions/contact" />
         <meta name="description" content="Contact page with email form, Location map" />
       </Helmet>
       <div style={contactStyles}>

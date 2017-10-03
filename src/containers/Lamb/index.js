@@ -15,6 +15,7 @@ export default class Lamb extends React.Component{
           <meta charSet="utf-8" />
           <title>Lamb Cuts | Lamb Wholesale Products</title>
           <meta name="description" content="WA Lamb || Whole Lamb || Lamb Chops || Lamb cutlets." />
+          <link rel="canonical" href="https://wcm.solutions/lamb" />
         </Helmet>
         <Grid>
         <Row bsStyle="row-eq-height">

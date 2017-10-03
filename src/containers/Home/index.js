@@ -27,9 +27,6 @@ const homeStyles = {
   margin: "40px auto"
 };
 
-
-
-
 class Home extends Component {
   render() {
     return <div className="container" style={homeStyles}>
@@ -39,7 +36,7 @@ class Home extends Component {
             Wholesale Meat, Perth | Canning Vale Meat Markets | Cheap Meat,
             Perth | Quality Meat, Perth | Halal Certified | MSA Certified
           </title>
-          <link rel="canonical" href="https://www.wcm.solutions" />
+          <link rel="canonical" href="https://wcm.solutions" />
           <meta name="description" content="Looking for wholesale price restaurant quality meat. At West Coast Meat Solutions we are committed to providing affordable meat to Perth families. We are Halal and MSA Certified. Open Saturday Morning to the public" />
         </Helmet>       
         <Row>

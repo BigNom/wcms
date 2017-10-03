@@ -11,7 +11,8 @@ export default class Members extends React.Component{
           <title>
             About West Coast Meat Solutions Members Area
           </title>
-          <meta name="description" content="At West Coast Meat Solutions " />
+          <meta name="description" content="At West Coast Meat Solutions Members" />
+          <link rel="canonical" href="https://wcm.solutions/members" />
         </Helmet>
         <Row>
           <Col xs={12} md={12}>

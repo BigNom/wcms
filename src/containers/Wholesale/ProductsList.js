@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import Product from './Product'
 import { Form, FormControl, FormGroup, Navbar } from 'react-bootstrap'
 
+const formStyles = {
+  width: "100%",
+};
+
 class ProductsList extends React.Component {
   constructor(props){
     super(props);
@@ -20,9 +24,14 @@ class ProductsList extends React.Component {
         return product.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
       }
     )
-    return <Form inline>
+    return <Form inline style={formStyles}>
         <FormGroup>
-          <FormControl type="text" placeholder="Search" value={this.state.search} onChange={this.updateSearch.bind(this)} />
+          <FormControl 
+          type="text" 
+          placeholder="Search" 
+          value={this.state.search} 
+          onChange={this.updateSearch.bind(this)} 
+          />
         </FormGroup>
         <div>
           {filteredProducts.map(product => {

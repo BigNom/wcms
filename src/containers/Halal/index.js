@@ -13,6 +13,7 @@ export default class Halal extends React.Component{
             Halal Meat, Perth | Halal Certified Meat Perth| Genuine Halal Meat,
             Perth | 
           </title>
+          <link rel="canonical" href="https://wcm.solutions/halal" />
           <meta name="description" content="Looking for genuine halal certified meat. At West Coast Meat Solutions we are committed to supplying high quality halal food. " />
         </Helmet>
         <Row>
