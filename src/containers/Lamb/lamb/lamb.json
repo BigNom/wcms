@@ -63,7 +63,7 @@
     "meatCut": "Lamb Bone (cut)",
     "price": "1.99",
     "cooking": "Roast",
-    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "This part of the animal works hard, so the meat from this part is full of flavour. It takes a while to become tender, but this means it’s a great choice for stewing and slow-roasting. To maximise the flavour, cook on the bone so the meat simply falls apart when pulled with a fork. "
   },
   {
@@ -74,7 +74,7 @@
     "meatCut": "Lamb Pieces (curry)",
     "price": "8.5",
     "cooking": "Roast",
-    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "Lamb curry (also referred to as Goat curry) is a curry dish that is prepared from mutton and vegetables. Primary ingredients of mutton curry include mutton, onion, tomato and spices."
     },
   {
@@ -85,7 +85,7 @@
     "meatCut": "Lamb Trim",
     "price": "5.99",
     "cooking": "Roast",
-    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "Lamb Trim plays well with a variety of flavours, making it an ideal sausage meat. The most popular cut for making lamb sausages is trim because of its affordability. You can also use this trim to make your own ground lamb, which is particularly good when spiced and used to make lamb burgers"
   },
   {
@@ -107,7 +107,7 @@
     "meatCut": "Flaps",
     "price": "5.50kg",
     "cooking": "Roast",
-    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "This thin cut runs along the belly. The fatty, flavourful meat, with its many tiny rib bones, may be boned and cooked whole by braising, which results in tender meat. The flaps is also sold for making grilled lamb burgers."
   },
   {
@@ -118,7 +118,7 @@
     "meatCut": "Ribletts",
     "price": "8",
     "cooking": "Roast",
-    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "One of the most cost-conscious cuts of lamb, the lamb riblets are perfect for braising and grilling and are a great substitute for baby back pork ribs in your favourite BBQ recipe. With its tender, rich meat, the rib section is one of the better sections of the lamb. It yields rib chops for sautéing, broiling or grilling."
   },
   { 
@@ -162,7 +162,7 @@
     "meatCut": "Sausages",
     "price": "3.50/T",
     "cooking": "Roast",
-    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "A sausage is a cylindrical meat product usually made from ground mutton, along with salt, spices and other flavourings, and breadcrumbs, with a skin around it. Most fresh sausages must be refrigerated or frozen until they are cooked."
   },
   {
@@ -173,7 +173,7 @@
     "meatCut": "Diced",
     "price": "14.99",
     "cooking": "Roast",
-    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png", 
+    "picture": "https://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png", 
     "description": "Cut from the shoulder, these lean pieces of meat are ready to cook in stews, casseroles and curries."
   },
   {
@@ -184,7 +184,7 @@
     "meatCut": "Mince",
     "price": "8.99",
     "cooking": "Roast",
-    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "Minced meat; meat chopped very fine; a mixture of boiled meat, suet, apples, etc, chopped very fine, to which spices and raisins are added; - used in making mince pie. Mince can be from a variety of different cuts of lamb; the middle neck, scrag end, breast or other forequarter offcuts."
   },
   {
@@ -195,7 +195,7 @@
     "meatCut": "Side of Lamb",
     "price": "10.99",
     "cooking": "Roast",
-    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "The side of lamb is where we get the lamb chops, both tender cuts that are best prepared using dry heat. The entire side of lamb can also be cooked on the grill."
   },
   {
@@ -206,7 +206,7 @@
     "meatCut": "Whole Lamb",
     "price": "8.99",
     "cooking": "Roast",
-    "picture": "http://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
+    "picture": "https://res.cloudinary.com/react-web/image/upload/v1506254240/wcms-placeholder_wpqwpj.png",
     "description": "Whole Lamb is usually sold whole or halved on the bone. This part of the animal has worked hard so is better for slow roasting to break down any fibres to be really tender."
   }
 ]
