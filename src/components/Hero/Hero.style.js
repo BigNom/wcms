@@ -34,7 +34,7 @@ ${media.phone`height: 200px);`}
 
 export const Blend = styled.div`
 background-color: rgba(0,0,0,0.1);
-mix-blend-mode: overlay;
+mix-blend-mode: luminosity;
 color: white;
 display: block;
 height: auto;
@@ -49,7 +49,7 @@ font-family: 'Orbitron', sans-serif;
 `;
 
 export const H1 = styled.h1`
-font-size: 3vw;
+height: 3vw;
 color: white;
 z-index: 1;
 `;

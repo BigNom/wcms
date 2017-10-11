@@ -83,12 +83,12 @@ export default class Footer extends Component {
             <Col xs={6} xsOffset={5} bsStyle="text-center">
               <Nav style={sitemapStyles} bsStyle="pills">
                 <LinkContainer to="/sitemap">
-                  <NavItem eventKey={4} href="#">
+                  <NavItem eventKey={4}>
                     Sitemap
                   </NavItem>
                 </LinkContainer>
-                <LinkContainer to="/privacy">
-                  <NavItem eventKey={4} href="#">
+                <LinkContainer to="/privacy-policy">
+                  <NavItem eventKey={4}>
                     Privacy Policy
                   </NavItem>
                 </LinkContainer>

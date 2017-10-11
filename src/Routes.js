@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Contact from './containers/Contact'
+import SimpleRouter from './containers/SimpleRouter/SimpleRouter'
 
 import asyncComponent from './components/AsyncComponent'
 
@@ -13,8 +14,9 @@ const AsyncHalal = asyncComponent(() => import("./containers/Halal/"))
 const AsyncAbout = asyncComponent(() => import("./containers/About/"))
 //const AsyncContact = asyncComponent(() => import("./containers/Contact/"))
 const AsyncSitemap = asyncComponent(() => import("./containers/Sitemap/"))
-const AsyncPrivacy = asyncComponent(() => import("./containers/Sitemap/"))
+const AsyncPrivacy = asyncComponent(() => import("./containers/Privacy/"))
 const AsyncMembers = asyncComponent(() => import ("./containers/Members"))
+
 
 
   export default () => <Switch>
@@ -28,7 +30,9 @@ const AsyncMembers = asyncComponent(() => import ("./containers/Members"))
       <Route exact path="/members" component={AsyncMembers} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/sitemap" component={AsyncSitemap} />
-      <Route exact path="/privacy" component={AsyncPrivacy} />
+      <Route exact path="/privacy-policy" component={AsyncPrivacy} />
+
+      <Route exact path="/simplerouter" component={SimpleRouter} />
       <Route render={function() {
           return <p>Not Found</p>;
         }} />

@@ -4,9 +4,8 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 
 const Sitemap = () => (
-  <div>
-    <h1>Pages</h1>
-    <Navbar>
+  <div className="container">
+    <h1>Sitemap</h1>
       <LinkContainer to="/">
         <NavItem eventKey={1}>Home</NavItem>
       </LinkContainer>
@@ -25,7 +24,6 @@ const Sitemap = () => (
       <LinkContainer to="/contact">
         <NavItem eventKey={1}>Contact Us</NavItem>
       </LinkContainer>
-    </Navbar>
   </div>
 );
 

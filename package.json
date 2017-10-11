@@ -10,6 +10,7 @@
     "bootstrap": "3",
     "cloudinary-react": "^1.0.4",
     "express": "^4.15.4",
+    "firebase": "^4.5.0",
     "global": "^4.3.2",
     "google-map-react": "^0.24.0",
     "grid-styled": "^2.0.0-8",
@@ -63,7 +64,8 @@
   },
   "babel": {
     "presets": [
-      "react-app"
+      "react-app",
+      "es2015"
     ],
     "plugins": [
       "transform-es2015-modules-commonjs"
