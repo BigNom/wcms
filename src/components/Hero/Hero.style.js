@@ -19,8 +19,6 @@ export const media = Object.keys(sizes).reduce((acc, label) => {
   return acc
 }, {})
 
-
-
 export const Container = styled.div`
 background-image: url(${headerLarge});
 background-size: 100vw;
@@ -33,26 +31,35 @@ ${media.phone`height: 200px);`}
 `;
 
 export const Blend = styled.div`
-background-color: rgba(0,0,0,0.1);
+background-color: rgba(0,0,0,0.6);
 mix-blend-mode: luminosity;
 color: white;
 display: block;
-height: auto;
-width: 100vw;
+height: 100%;
+width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 text-align: center;
-font-size: 160px;
 font-family: 'Orbitron', sans-serif;
 `;
 
-export const H1 = styled.h1`
-height: 3vw;
+export const H1 = styled.div`
+padding-top: 50px;
+padding-bottom: 10px;
+font-size: 48px;
 color: white;
-z-index: 1;
+text-transform: uppercase;
+${media.desktop`font-size: 48px);`}
+${media.tablet`font-size: 20px);`}
 `;
+
+export const H2 = styled.div`
+font-size: 30px;
+color: white;
+
+`
 
 
 

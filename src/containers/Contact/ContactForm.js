@@ -50,7 +50,7 @@ class ContactForm extends React.Component {
       />
 
       <div className="form-group">
-          <label for="nameInput">
+          <label htmlFor="nameInput">
             First Name
             <input 
             className="form-control"
@@ -64,7 +64,7 @@ class ContactForm extends React.Component {
           </div>
 
         <div className="form-group">
-          <label for="emailInput">
+          <label htmlFor="emailInput">
             Email
             <input 
             className="form-control"
