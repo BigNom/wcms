@@ -1,18 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 import GMaps from './GMaps'
-import { Col, Row, PageHeader, FormGroup, HelpBlock, ControlLabel, FormControl, Button } from 'react-bootstrap'
+import { Col, Row, PageHeader } from 'react-bootstrap'
 import Helmet from "react-helmet"
+
 import ContactForm from './ContactForm'
-
-const loginStyles = {
-  width: "90%",
-  maxWidth: "315px",
-  margin: "20px auto",
-  border: "1px solid #ddd",
-  borderRadius: "5px",
-  padding: "10px"
-};
-
 const contactStyles = {
   margin: "40px auto"
 };

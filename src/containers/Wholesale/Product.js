@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Thumbnail, Image, Col } from "react-bootstrap";
+import { Thumbnail, Image } from "react-bootstrap";
 
 const thumbStyles = {
   float: "left",

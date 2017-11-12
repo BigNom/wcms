@@ -64,7 +64,7 @@ export default class Footer extends Component {
             <Col xs={12} md={3}>
 
             <div className="embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item" width="350" height="auto" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhdlWnH69MioRxgsAmZr370w&key=AIzaSyBuiiGlV57y-miH70QureBPQofKDE1WxHU" alt="google map location"></iframe>
+            <iframe className="embed-responsive-item" width="350" height="auto" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhdlWnH69MioRxgsAmZr370w&key=AIzaSyBuiiGlV57y-miH70QureBPQofKDE1WxHU" alt="google map location" title="Google Map"></iframe>
           </div>
             </Col>
             <Col xs={12} md={3}>

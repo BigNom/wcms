@@ -12,26 +12,33 @@ import {
 
 const H3 = styled.h3`
 color: #F3C00F;
-padding: 0;
 font-size: 20px;
-margin-right: 20px;
+padding: 0 10px;
 `;
 
 const Wrapper = styled.div`
   width: 260px;
-  margin: 10px;
-  padding: 10px 15px;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0 2px 8px 0 #d9d9d9;
   postion: relative;
+  margin: 10px;
+`;
+
+const TopCard = styled.div`
+width: 260px;
+background-color: #fff;
+border-radius: 4px;
+box-shadow: 0 2px 8px 0 #d9d9d9;
+postion: relative;
+padding: 10px;
 `;
 
 const CardTitle = styled.div`
 display: flex;
 flex-direction: row;
 width: 100%;
-margin-bottom: 10px;
+background-color: #063263;
 `;
 
 const Circle = styled.div`
@@ -63,13 +70,14 @@ color: white;
 const Specials = ({ meatCut, price}) => {
   return (
     <Wrapper>
-        <CardTitle>
-        <H3>{meatCut}</H3>
-        <Circle>
-        <H4 className="font-effect-fire">$ {price}</H4><H6>per Kg</H6>
-        </Circle>
-        
-        </CardTitle>    
+    <TopCard>
+    <Circle>
+    <H4 className="font-effect-fire">$ {price}</H4><H6>per Kg</H6>
+    </Circle>
+    </TopCard>
+    <CardTitle>
+    <H3>{meatCut}</H3>
+    </CardTitle>
     </Wrapper>
 
   );
