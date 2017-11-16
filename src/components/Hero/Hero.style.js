@@ -20,19 +20,22 @@ export const media = Object.keys(sizes).reduce((acc, label) => {
 }, {})
 
 export const Container = styled.div`
+background-position: center;
+background-repeat: no-repeat;
 background-image: url(${headerLarge});
 background-size: 100vw;
 height: 350px;
 background-size: cover;
 background-repeat: no-repeat;
 z-index: -1;
-${media.desktop`height: 350px);`}
-${media.phone`height: 200px);`}
+opacity: 0.9;
+${media.desktop`height: 350px;`}
+${media.phone`height: 200px;`}
+
 `;
 
 export const Blend = styled.div`
 background-color: rgba(0,0,0,0.6);
-mix-blend-mode: luminosity;
 color: white;
 display: block;
 height: 100%;
@@ -43,22 +46,31 @@ justify-content: flex-start;
 align-items: center;
 text-align: center;
 font-family: 'Orbitron', sans-serif;
+padding: 0 10px;
 `;
 
-export const H1 = styled.div`
-padding-top: 50px;
+export const HeaderWrapper = styled.div`
+background-color: rgba(0,0,0,0.5);
+margin-top: 70px;
+padding: 10px;
+border-radius: 20px;
+`
+
+export const Title = styled.div`
 padding-bottom: 10px;
 font-size: 48px;
+font-weight: 600;
 color: white;
 text-transform: uppercase;
-${media.desktop`font-size: 48px);`}
-${media.tablet`font-size: 20px);`}
+${media.desktop`font-size: 48px;`}
+${media.tablet`font-size: 30px;`}
 `;
 
-export const H2 = styled.div`
+export const SubTitle = styled.div`
 font-size: 30px;
 color: white;
-
+${media.desktop`font-size: 30px;`}
+${media.tablet`font-size: 24px;`}
 `
 
 

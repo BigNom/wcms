@@ -2,6 +2,8 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Contact from './containers/Contact'
 import SimpleRouter from './containers/SimpleRouter/SimpleRouter'
+import Roster from './containers/SimpleRouter/Roster'
+import Schedule from './containers/SimpleRouter/Schedule'
 
 import asyncComponent from './components/AsyncComponent'
 
@@ -33,6 +35,8 @@ const AsyncMembers = asyncComponent(() => import ("./containers/Members"))
       <Route exact path="/privacy-policy" component={AsyncPrivacy} />
 
       <Route exact path="/simplerouter" component={SimpleRouter} />
+      <Route path='/roster' component={Roster}/>
+      <Route path='/schedule' component={Schedule}/>
       <Route render={function() {
           return <p>Not Found</p>;
         }} />

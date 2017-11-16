@@ -81,3 +81,5 @@ Disallow: /maps/api/js/QuotaService.RecordEvent
 
 ## Favicon Generator
 https://www.favicon-generator.org/
+
+Project must have a firebase.js to be able to deploy

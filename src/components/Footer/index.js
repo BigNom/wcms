@@ -28,9 +28,9 @@ function handleSelect(selectedKey) {
 export default class Footer extends Component {
   render() {
     return <div style={footerStyles}>
-        <Grid fluid>
-          <Row>
-            <Col xs={12} md={3}>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-12 col-md-3">
               <Nav bsStyle="pills" stacked onSelect={handleSelect}>
                 <LinkContainer exact={true} to="/">
                   <img src={logoSm} alt="west coast meat solutions logo" />
@@ -54,20 +54,20 @@ export default class Footer extends Component {
                   </NavItem>
                 </LinkContainer>
               </Nav>
-            </Col>
-            <Col xs={12} md={3}>
+            </div>
+            <div className="col-12 col-md-3">
             <h5 className="text-center">Follow Us</h5>
             <a className="navbar-brand" href="https://www.facebook.com/wcmsolutions/">
             <img src={fbLogoSm} alt="facebook link"/>
             </a>
-            </Col>
-            <Col xs={12} md={3}>
+            </div>
+            <div className="col-12 col-md-3">
 
             <div className="embed-responsive embed-responsive-16by9">
             <iframe className="embed-responsive-item" width="350" height="auto" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhdlWnH69MioRxgsAmZr370w&key=AIzaSyBuiiGlV57y-miH70QureBPQofKDE1WxHU" alt="google map location" title="Google Map"></iframe>
           </div>
-            </Col>
-            <Col xs={12} md={3}>
+            </div>
+            <div className="col-12 col-md-3">
               <address>
                 <strong>West Coast Meat Solutions</strong>
                 <br />
@@ -77,14 +77,13 @@ export default class Footer extends Component {
                 <abbr title="Phone" /> 9455 7962<br />
                 sales@wmcsolutions.com.au
               </address>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={6} xsOffset={5} bsStyle="text-center">
+            </div>
+          </div>
+          <div className="row text-center">
+            <div className="col-md-4 col-md-offset-4">
               <Nav style={sitemapStyles} bsStyle="pills">
                 <LinkContainer to="/sitemap">
-                  <NavItem eventKey={4}>
-                    Sitemap
+                  <NavItem eventKey={4}><p>Sitemap</p>
                   </NavItem>
                 </LinkContainer>
                 <LinkContainer to="/privacy-policy">
@@ -93,8 +92,8 @@ export default class Footer extends Component {
                   </NavItem>
                 </LinkContainer>
               </Nav>
-            </Col>
-          </Row>
+            </div>
+          </div>
 
           <footer className="footer text-center">
             <div className="container">
@@ -103,7 +102,7 @@ export default class Footer extends Component {
               </p>
             </div>
           </footer>
-        </Grid>
+        </div>
       </div>;
     };
 }

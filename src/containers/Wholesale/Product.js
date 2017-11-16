@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Thumbnail, Image } from "react-bootstrap";
+import { Link } from 'react-router-dom'
+
 
 const thumbStyles = {
   float: "left",
@@ -19,11 +21,11 @@ class Product extends React.Component {
         <div style={imageStyles}>
           <Image src={this.props.product.picture} />
         </div>
-
         <h3>{this.props.product.name}</h3>
         <p>$ {this.props.product.price} per kg</p>
         <p>Average package weighs {this.props.product.weight} kg</p>
-      </Thumbnail>;
+        <a href='/wholesale'>Back</a>
+      </Thumbnail>
   }
 }
 export default Product

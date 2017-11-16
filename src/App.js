@@ -6,14 +6,14 @@ import {
 import { Grid } from 'react-bootstrap'
 
 import Routes from './Routes'
-import Hero from './components/Hero/Hero'
+import Hero from './components/Hero/'
 import Footer from './components/Footer/'
 //import './App.css'
 
 class App extends Component {
   render() {
     return <Router>
-        <div>
+        <div className="app-style">
           <Grid fluid>
             <Hero />
             <Routes />

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Nav, Navbar, NavItem } from "react-bootstrap";
 import { LinkContainer } from 'react-router-bootstrap'
 import logoSm from './logoSm.svg'
-//import './Navigation.css'
+import './Navigation.css'
 
 const linkStyles = {
   color: "white",
@@ -45,9 +45,9 @@ class Navigation extends Component {
             </LinkContainer>
           </Nav>
           <Nav pullRight>
-            <NavItem eventKey={7}>
+            <a href="tel:+08-9455-7962" className="phone-number">
               9455 7962
-            </NavItem>
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>;

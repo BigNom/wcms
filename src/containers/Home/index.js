@@ -17,6 +17,8 @@ import haccp from "./haccp-96x96.jpg";
 import halal from "./halal.jpg";
 import beefIcon from "../../assets/beefIcon.svg";
 
+
+
 import SpecialsList from './SpecialsList'
 
 const products = require('./specials.json');
@@ -71,10 +73,8 @@ class Home extends Component {
               day only per week our doors are open to the public to purchase
               meat at the discounted price that is usually reserved for our
               distributers. To compare costs head on over to our Wholesale
-              Market page of click <a href="/wholesale">here.</a> Lower prices
+              Market page or click <a href="/wholesale">here.</a> Lower prices
               are the direct result of bulk buying power and less handling.
-            </p>
-            <p>
               The <strong>gates open at 6:00</strong> so make sure you get in
               early to beat the rush.
             </p>
@@ -130,15 +130,15 @@ class Home extends Component {
             </Well>
 
             <Well>
-              <div>
-                <address>
-                  <strong>West Coast Meat Solutions</strong>
+              <div itemscope itemtype="http://schema.org/LocalBusiness">
+                  <strong itemprop="name">West Coast Meat Solutions</strong>
                   <br />
                   West Wing 4 Market City,<br />
                   280 Bannister Road,<br />
                   Canning Vale WA 6155<br />
-                  <abbr title="Phone" /> 9455 7962
-                </address>
+                  <span itemprop="telephone">
+                  <a href="tel:08-9455-7962">9455 7962</a>
+                  </span>
               </div>
             </Well>
             <Well>
